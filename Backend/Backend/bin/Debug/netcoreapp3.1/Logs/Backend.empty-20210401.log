@@ -1,0 +1,8 @@
+2021-04-01 23:59:18.1795|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-04-01 23:59:19.1592|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-04-01 23:59:19.2300|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-04-01 23:59:19.2353|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-04-01 23:59:19.2353|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-04-01 23:59:19.2353|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-04-01 23:59:19.2353|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-04-01 23:59:19.2590|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started

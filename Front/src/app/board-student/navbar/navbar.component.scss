@@ -1,0 +1,31 @@
+.header {
+    height: 30px;
+    background-color: #221f1f;
+    .logo {
+      height: 120px;
+    }
+    .log {
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      .text {
+        color: #ffffff;
+        text-align: center;
+        font-size: 35px;
+        font-family: Forte;
+        .size {
+          font-size: 35px;
+          top:ce;
+        }
+        .icon {
+          font-size: 35px;
+          font-style: italic;
+          padding-left: 7px;
+          position: absolute;
+          top: 5px;
+          right: 1px;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,616 @@
+2021-03-22 18:49:08.1662|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-22 18:49:09.1300|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-22 18:49:09.1953|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-22 18:49:09.1953|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-22 18:49:09.1953|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-22 18:49:09.1953|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-22 18:49:09.1953|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-22 18:49:09.1953|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-22 18:51:42.6645|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" accepted.
+2021-03-22 18:51:42.6645|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" started.
+2021-03-22 18:51:42.7342|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 18:51:42.7342|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-22 18:51:42.8393|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 18:51:42.8393|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 18:51:42.8393|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 18:51:42.8393|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 18:51:42.8393|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 18:51:42.8690|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" completed keep alive response.
+2021-03-22 18:51:42.8690|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 145.0083ms 204 
+2021-03-22 18:51:42.9111|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 18:51:42.9139|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 18:51:42.9139|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 18:51:42.9139|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:51:42.9139|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 18:51:42.9139|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 18:51:43.0668|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 18:51:45.7673|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:51:45.8214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-22 18:51:46.0710|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 18:51:46.0877|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 18:51:46.0877|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 18:51:46.0877|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 18:51:46.0877|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 18:51:46.0877|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 18:51:46.0877|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 18:51:46.0877|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 18:51:46.1043|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 18:51:46.1043|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 18:51:46.1043|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 18:51:46.1270|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7", Request id "0HM7DBCJHFDT7:00000002": started reading request body.
+2021-03-22 18:51:46.1270|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7", Request id "0HM7DBCJHFDT7:00000002": done reading request body.
+2021-03-22 18:51:46.1341|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 18:51:46.1341|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:51:46.1341|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:51:46.1341|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 18:51:46.1503|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:51:46.2038|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 18:51:46.8651|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 657.8403ms.
+2021-03-22 18:51:46.9604|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 18:51:46.9604|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 18:51:46.9604|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 18:51:46.9604|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 18:51:46.9604|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 18:51:46.9604|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-03-22 18:51:46.9805|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 885.32ms
+2021-03-22 18:51:46.9805|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:51:46.9805|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" completed keep alive response.
+2021-03-22 18:51:46.9928|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 4081.7559ms 400 application/json; charset=utf-8
+2021-03-22 18:52:28.4869|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 18:52:28.4869|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 18:52:28.4869|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 18:52:28.5244|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 18:52:28.5244|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 18:52:28.5244|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 18:52:28.5244|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" completed keep alive response.
+2021-03-22 18:52:28.5244|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 42.4559ms 204 
+2021-03-22 18:52:28.5409|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 35
+2021-03-22 18:52:28.5409|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 18:52:28.5409|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 18:52:28.5409|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:52:28.5409|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 18:52:28.5409|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 18:52:28.5409|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 18:52:28.5409|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:52:28.5409|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7", Request id "0HM7DBCJHFDT7:00000004": started reading request body.
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7", Request id "0HM7DBCJHFDT7:00000004": done reading request body.
+2021-03-22 18:52:28.5548|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 18:52:28.5703|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:52:28.5703|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:52:28.5703|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 18:52:28.5703|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:52:28.5975|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 18:52:29.3057|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 706.7017ms.
+2021-03-22 18:52:29.3057|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 18:52:29.3057|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 18:52:29.3057|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 18:52:29.3057|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 18:52:29.3057|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 18:52:29.3057|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 18:52:29.3246|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 766.0596ms
+2021-03-22 18:52:29.3246|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:52:29.3246|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" completed keep alive response.
+2021-03-22 18:52:29.3246|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 787.1633ms 200 application/json; charset=utf-8
+2021-03-22 18:57:32.3928|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDT7" received FIN.
+2021-03-22 18:57:32.4144|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDT7" sending FIN because: "The client closed the connection."
+2021-03-22 18:57:32.4144|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" disconnecting.
+2021-03-22 18:57:32.4511|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT7" stopped.
+2021-03-22 18:58:29.4778|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" accepted.
+2021-03-22 18:58:29.4778|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" started.
+2021-03-22 18:58:29.4927|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 18:58:29.4927|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 18:58:29.4927|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 18:58:29.4927|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 18:58:29.4927|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 18:58:29.4927|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 18:58:29.4927|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" completed keep alive response.
+2021-03-22 18:58:29.4927|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 14.8577ms 204 
+2021-03-22 18:58:29.5109|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 18:58:29.5109|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 18:58:29.5109|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 18:58:29.5109|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:58:29.5109|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 18:58:29.5109|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 18:58:29.5109|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 18:58:29.5230|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:58:29.5230|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 18:58:29.5230|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 18:58:29.5394|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8", Request id "0HM7DBCJHFDT8:00000002": started reading request body.
+2021-03-22 18:58:29.5394|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8", Request id "0HM7DBCJHFDT8:00000002": done reading request body.
+2021-03-22 18:58:29.5394|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 18:58:29.5394|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:58:29.5394|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:58:29.5394|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 18:58:29.5394|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 18:58:29.5693|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 18:58:29.6138|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 43.3652ms.
+2021-03-22 18:58:29.6138|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 18:58:29.6138|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 18:58:29.6165|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 18:58:29.6165|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 18:58:29.6165|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 18:58:29.6165|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2021-03-22 18:58:29.6165|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 86.7567ms
+2021-03-22 18:58:29.6165|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 18:58:29.6165|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" completed keep alive response.
+2021-03-22 18:58:29.6165|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 113.546ms 400 application/json; charset=utf-8
+2021-03-22 19:00:13.5760|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:00:13.5885|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:00:13.5885|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:00:13.5885|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:00:13.5885|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:00:13.5885|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:00:13.5885|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" completed keep alive response.
+2021-03-22 19:00:13.5885|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 20.7506ms 204 
+2021-03-22 19:00:13.5885|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:00:13.5885|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:00:13.6018|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:00:13.6018|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:00:13.6018|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:00:13.6018|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8", Request id "0HM7DBCJHFDT8:00000004": started reading request body.
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8", Request id "0HM7DBCJHFDT8:00000004": done reading request body.
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:00:13.6174|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:00:13.6532|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:00:13.6874|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 32.991ms.
+2021-03-22 19:00:13.6874|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:00:13.6874|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:00:13.6874|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:00:13.6874|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:00:13.6874|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:00:13.6874|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:00:13.6874|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 73.6975ms
+2021-03-22 19:00:13.6874|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:00:13.6959|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" completed keep alive response.
+2021-03-22 19:00:13.6959|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 97.9ms 200 application/json; charset=utf-8
+2021-03-22 19:05:15.7872|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDT8" received FIN.
+2021-03-22 19:05:15.8156|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" disconnecting.
+2021-03-22 19:05:15.8505|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDT8" sending FIN because: "The client closed the connection."
+2021-03-22 19:05:15.8530|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT8" stopped.
+2021-03-22 19:05:28.1112|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9" accepted.
+2021-03-22 19:05:28.1112|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9" started.
+2021-03-22 19:05:28.1112|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:05:28.1112|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:05:28.1172|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9" completed keep alive response.
+2021-03-22 19:05:28.1172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 8.2284ms 204 
+2021-03-22 19:05:28.1172|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:05:28.1172|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:05:28.1172|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:05:28.1172|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:05:28.1344|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9", Request id "0HM7DBCJHFDT9:00000002": started reading request body.
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9", Request id "0HM7DBCJHFDT9:00000002": done reading request body.
+2021-03-22 19:05:28.1344|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:05:28.1484|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:05:28.1484|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:05:28.1484|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:05:28.1484|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:05:28.1783|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:05:28.2343|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 55.0234ms.
+2021-03-22 19:05:28.2343|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:05:28.2343|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:05:28.2343|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:05:28.2343|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:05:28.2343|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:05:28.2343|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:05:28.2343|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 101.078ms
+2021-03-22 19:05:28.2426|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:05:28.2426|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9" completed keep alive response.
+2021-03-22 19:05:28.2426|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 120.4374ms 200 application/json; charset=utf-8
+2021-03-22 19:07:24.1893|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDT9" received FIN.
+2021-03-22 19:07:24.2032|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9" disconnecting.
+2021-03-22 19:07:24.2032|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDT9" sending FIN because: "The client closed the connection."
+2021-03-22 19:07:24.2504|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDT9" stopped.
+2021-03-22 19:07:36.8723|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA" accepted.
+2021-03-22 19:07:36.8723|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA" started.
+2021-03-22 19:07:36.8723|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:07:36.8723|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:07:36.8723|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:07:36.8723|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:07:36.8723|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:07:36.8723|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:07:36.8723|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA" completed keep alive response.
+2021-03-22 19:07:36.8822|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 7.1838ms 204 
+2021-03-22 19:07:36.8822|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:07:36.8822|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:07:36.8822|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:07:36.8822|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:07:36.8822|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA", Request id "0HM7DBCJHFDTA:00000002": started reading request body.
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA", Request id "0HM7DBCJHFDTA:00000002": done reading request body.
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:07:36.8984|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:07:36.9372|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:07:36.9839|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 45.8323ms.
+2021-03-22 19:07:36.9839|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:07:36.9839|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:07:36.9839|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:07:36.9839|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:07:36.9839|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:07:36.9839|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:07:36.9839|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 90.8225ms
+2021-03-22 19:07:36.9839|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:07:36.9922|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA" completed keep alive response.
+2021-03-22 19:07:36.9922|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 109.8332ms 200 application/json; charset=utf-8
+2021-03-22 19:09:41.3198|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTA" received FIN.
+2021-03-22 19:09:41.3371|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTA" sending FIN because: "The client closed the connection."
+2021-03-22 19:09:41.3514|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA" disconnecting.
+2021-03-22 19:09:41.3514|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTA" stopped.
+2021-03-22 19:10:32.5860|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB" accepted.
+2021-03-22 19:10:32.5860|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB" started.
+2021-03-22 19:10:32.6075|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:10:32.6075|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:10:32.6075|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:10:32.6075|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:10:32.6075|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:10:32.6075|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:10:32.6075|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB" completed keep alive response.
+2021-03-22 19:10:32.6075|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 7.1616ms 204 
+2021-03-22 19:10:32.6075|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:10:32.6075|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:10:32.6176|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:10:32.6176|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:10:32.6176|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:10:32.6176|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB", Request id "0HM7DBCJHFDTB:00000002": started reading request body.
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB", Request id "0HM7DBCJHFDTB:00000002": done reading request body.
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:10:32.6324|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:10:32.6694|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:10:32.7065|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 35.9781ms.
+2021-03-22 19:10:32.7065|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:10:32.7065|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:10:32.7065|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:10:32.7065|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:10:32.7065|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:10:32.7111|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:10:32.7111|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 81.9551ms
+2021-03-22 19:10:32.7111|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:10:32.7111|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB" completed keep alive response.
+2021-03-22 19:10:32.7111|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 100.1179ms 200 application/json; charset=utf-8
+2021-03-22 19:11:31.1913|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTB" received FIN.
+2021-03-22 19:11:31.2126|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB" disconnecting.
+2021-03-22 19:11:31.2126|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTB" sending FIN because: "The client closed the connection."
+2021-03-22 19:11:31.2502|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTB" stopped.
+2021-03-22 19:13:14.5526|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" accepted.
+2021-03-22 19:13:14.5646|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" started.
+2021-03-22 19:13:14.5646|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:13:14.5646|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:13:14.5646|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:13:14.5646|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:13:14.5704|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:13:14.5704|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:13:14.5704|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" completed keep alive response.
+2021-03-22 19:13:14.5704|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 8.9284ms 204 
+2021-03-22 19:13:14.5704|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:13:14.5704|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:13:14.5704|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:13:14.5704|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:13:14.5704|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:13:14.5704|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:13:14.5704|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:13:14.5861|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:13:14.5861|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:13:14.5861|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC", Request id "0HM7DBCJHFDTC:00000002": started reading request body.
+2021-03-22 19:13:14.6013|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC", Request id "0HM7DBCJHFDTC:00000002": done reading request body.
+2021-03-22 19:13:14.6013|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:13:14.6013|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:13:14.6013|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:13:14.6013|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:13:14.6013|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:13:14.6290|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:13:14.6707|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.9089ms.
+2021-03-22 19:13:14.6707|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:13:14.6825|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:13:14.6825|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:13:14.6825|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:13:14.6825|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:13:14.6825|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:13:14.6825|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 92.2007ms
+2021-03-22 19:13:14.6825|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:13:14.6825|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" completed keep alive response.
+2021-03-22 19:13:14.6825|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 111.5526ms 200 application/json; charset=utf-8
+2021-03-22 19:13:24.4180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:13:24.4180|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:13:24.4180|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:13:24.4180|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:13:24.4180|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:13:24.4180|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:13:24.4180|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" completed keep alive response.
+2021-03-22 19:13:24.4180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 7.9146ms 204 
+2021-03-22 19:13:24.4180|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:13:24.4180|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:13:24.4299|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:13:24.4299|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:13:24.4299|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:13:24.4299|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC", Request id "0HM7DBCJHFDTC:00000004": started reading request body.
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC", Request id "0HM7DBCJHFDTC:00000004": done reading request body.
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:13:24.4456|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:13:24.4832|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:13:24.5218|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 37.4254ms.
+2021-03-22 19:13:24.5234|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:13:24.5234|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:13:24.5234|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:13:24.5234|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:13:24.5234|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:13:24.5234|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:13:24.5234|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 85.1604ms
+2021-03-22 19:13:24.5234|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:13:24.5234|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" completed keep alive response.
+2021-03-22 19:13:24.5234|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 108.1196ms 200 application/json; charset=utf-8
+2021-03-22 19:13:48.8146|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTC" received FIN.
+2021-03-22 19:13:48.8146|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" disconnecting.
+2021-03-22 19:13:48.8288|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTC" sending FIN because: "The client closed the connection."
+2021-03-22 19:13:48.9129|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTC" stopped.
+2021-03-22 19:29:47.3821|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD" accepted.
+2021-03-22 19:29:47.3833|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD" started.
+2021-03-22 19:29:47.4035|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:29:47.4035|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:29:47.4035|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:29:47.4035|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:29:47.4035|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:29:47.4035|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:29:47.4035|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD" completed keep alive response.
+2021-03-22 19:29:47.4035|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 8.8577ms 204 
+2021-03-22 19:29:47.4544|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:29:47.4544|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:29:47.4544|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:29:47.4544|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:29:47.4544|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:29:47.4544|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:29:47.4615|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:29:47.4615|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:29:47.4615|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD", Request id "0HM7DBCJHFDTD:00000002": started reading request body.
+2021-03-22 19:29:47.4765|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD", Request id "0HM7DBCJHFDTD:00000002": done reading request body.
+2021-03-22 19:29:47.4765|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:29:47.4765|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:29:47.4765|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:29:47.4765|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:29:47.4765|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:29:47.5015|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:29:47.8237|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 40.1723ms.
+2021-03-22 19:29:47.8237|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:29:47.8237|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:29:47.8237|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:29:47.8237|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:29:47.8237|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:29:47.8237|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:29:47.8237|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 360.3426ms
+2021-03-22 19:29:47.8237|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:29:47.8237|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD" completed keep alive response.
+2021-03-22 19:29:47.8237|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 380.0096ms 200 application/json; charset=utf-8
+2021-03-22 19:31:32.3261|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTD" received FIN.
+2021-03-22 19:31:32.3450|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD" disconnecting.
+2021-03-22 19:31:32.3450|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTD" sending FIN because: "The client closed the connection."
+2021-03-22 19:31:32.3450|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTD" stopped.
+2021-03-22 19:31:46.3688|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE" accepted.
+2021-03-22 19:31:46.3688|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE" started.
+2021-03-22 19:31:46.3688|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:31:46.3688|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:31:46.3688|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:31:46.3834|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE" completed keep alive response.
+2021-03-22 19:31:46.3834|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 14.7288ms 204 
+2021-03-22 19:31:46.3834|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:31:46.3834|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:31:46.3834|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:31:46.3834|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:31:46.3991|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE", Request id "0HM7DBCJHFDTE:00000002": started reading request body.
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE", Request id "0HM7DBCJHFDTE:00000002": done reading request body.
+2021-03-22 19:31:46.3991|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:31:46.4143|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:31:46.4143|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:31:46.4143|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:31:46.4143|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:31:46.4403|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:31:46.4811|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 39.4896ms.
+2021-03-22 19:31:46.4811|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:31:46.4811|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:31:46.4811|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:31:46.4811|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:31:46.4811|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:31:46.4811|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:31:46.4811|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 82.5748ms
+2021-03-22 19:31:46.5220|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:31:46.5231|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE" completed keep alive response.
+2021-03-22 19:31:46.5231|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 135.5986ms 200 application/json; charset=utf-8
+2021-03-22 19:36:51.6127|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTE" received FIN.
+2021-03-22 19:36:51.6316|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE" disconnecting.
+2021-03-22 19:36:51.6330|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTE" stopped.
+2021-03-22 19:36:51.7297|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2021-03-22 19:40:09.5098|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF" accepted.
+2021-03-22 19:40:09.5098|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF" started.
+2021-03-22 19:40:09.5349|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-03-22 19:40:09.5349|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:40:09.5349|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-03-22 19:40:09.5349|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:40:09.5391|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:40:09.5391|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-03-22 19:40:09.5391|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF" completed keep alive response.
+2021-03-22 19:40:09.5391|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 8.458ms 204 
+2021-03-22 19:40:09.5549|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 32
+2021-03-22 19:40:09.5549|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-03-22 19:40:09.5549|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-03-22 19:40:09.5549|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:40:09.5549|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-03-22 19:40:09.5549|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-03-22 19:40:09.5549|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-22 19:40:09.5549|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:40:09.5549|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF", Request id "0HM7DBCJHFDTF:00000002": started reading request body.
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF", Request id "0HM7DBCJHFDTF:00000002": done reading request body.
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:40:09.5702|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:40:09.5863|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-22 19:40:09.5863|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-22 19:40:09.6185|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-22 19:40:09.6568|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 36.9628ms.
+2021-03-22 19:40:09.6568|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-22 19:40:09.6568|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-22 19:40:09.6568|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-22 19:40:09.6568|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-22 19:40:09.6568|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-22 19:40:09.6568|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-22 19:40:09.6656|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 88.9189ms
+2021-03-22 19:40:09.6656|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-22 19:40:09.6656|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF" completed keep alive response.
+2021-03-22 19:40:09.6656|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 123.4951ms 200 application/json; charset=utf-8
+2021-03-22 19:51:38.6897|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTF" received FIN.
+2021-03-22 19:51:38.7047|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF" disconnecting.
+2021-03-22 19:51:38.7047|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM7DBCJHFDTF" sending FIN because: "The client closed the connection."
+2021-03-22 19:51:38.7357|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM7DBCJHFDTF" stopped.

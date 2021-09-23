@@ -1,0 +1,66 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+  <button
+    mat-icon-button
+    aria-label="Example icon-button with a heart icon"
+    (click)="refresh()"
+  >
+    <mat-icon>cached</mat-icon>
+  </button>
+  <mat-tab-group *ngIf="teacher !== undefined">
+    <mat-tab label="Informacje">
+      <div class="info">
+        <div class="tekst">
+          <h3>Login: {{ teacher.user.login }}</h3>
+          <h3>Imie i nazwisko: {{ teacher.user.imieNazwisko }}</h3>
+          <h3>E-mail: {{ teacher.user.email }}</h3>
+          <h3>Specjalizacja: {{ teacher.specjalize }}</h3>
+          <div>
+            <h3>Szkoła</h3>
+            <p>Name: {{ teacher.user.school.name }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Przedmioty">
+      <mat-tab-group>
+        <div *ngFor="let typ of typs">
+          <mat-tab label="{{ typ }}">
+            <mat-accordion
+              displayMode="flat"
+              multi
+              class="mat-table"
+              *ngIf="teacher.subject !== undefined"
+            >
+              <div *ngIf="typ !== undefined">
+                <mat-expansion-panel *ngFor="let subj of sortSubject(typ)">
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      {{ subj.name }}
+                    </mat-panel-title>
+                    <mat-panel-description>
+                    </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div *ngFor="let les of getLessonWithTyp(subj)" class="przedmiot">
+                    <div class="tekst">
+                      <p>
+                        Grupa: {{ les.groupStatic.direction }} -
+                        {{ les.groupStatic.specjalize }} -
+                        {{ les.groupStatic.year }} -
+                        {{ les.groupStatic.semester }}
+                      </p>
+                      <p>Czas lekcji: {{ les.time }}</p>
+                      <button mat-button (click)="loadLesson(les)">
+                        Szczegóły przedmiotu
+                      </button>
+                    </div>
+                  </div>
+                </mat-expansion-panel>
+              </div>
+            </mat-accordion>
+          </mat-tab>
+        </div>
+      </mat-tab-group>
+    </mat-tab>
+  </mat-tab-group>
+</div>

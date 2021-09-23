@@ -1,0 +1,41 @@
+.info {
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    .inf {
+      background-color: #888383;
+      position: relative;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      .tekst {
+        margin-left: 10px;
+        color: black;
+      }
+    }
+  }
+
+  .listitem{
+    background-color: #888383;
+    position: relative;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    .tekst {
+      margin-left: 10px;
+      color: black;
+    }
+    .file{
+      width: 100%;
+      background-color: #888383;
+      text-align: center;
+      color: black;
+    }
+}

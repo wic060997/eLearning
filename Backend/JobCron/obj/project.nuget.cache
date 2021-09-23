@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "xDR8Z/M19DEA+IAkMkbFZZapfTEJfMpxGuiPy0Fj1iDTJ5jBws7qw4jTxft2RmsWziLMpjgnL8XVGSI0GIdsvw==",
+  "success": true,
+  "projectFilePath": "D:\\PRACA_MAGISTERSKA\\Backend\\JobCron\\JobCron.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Wiktor\\.nuget\\packages\\autofac\\6.2.0\\autofac.6.2.0.nupkg.sha512",
+    "C:\\Users\\Wiktor\\.nuget\\packages\\cronos\\0.7.1\\cronos.0.7.1.nupkg.sha512",
+    "C:\\Users\\Wiktor\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,64 @@
+<h2 mat-dialog-title>Przedmiot: {{ data.lesson.subject.name }}</h2>
+<div mat-dialog-content>
+  <mat-tab-group>
+    <mat-tab label="Informacje">
+      <div class="info">
+        <div class="inf">
+          <div class="tekst">
+            <h2>Przedmiot: {{ data.lesson.subject.name }}</h2>
+            <p *ngIf="data.lesson.typLesson === 0">Typ lesson: WYKŁAD</p>
+            <p *ngIf="data.lesson.typLesson === 1">Typ lesson: ĆWICZENIA</p>
+            <p *ngIf="data.lesson.typLesson === 2">Typ lesson: PROJECT</p>
+            <P>Czas trwania: {{ data.lesson.time }}</P>
+          </div>
+        </div>
+        <div class="inf">
+          <div class="tekst">
+            <h2>Grupa</h2>
+            <p>Kierunek: {{ data.lesson.groupS.direction }}</p>
+            <p>Specjalizacja: {{ data.lesson.groupS.specjalize }}</p>
+            <p>Rok: {{ data.lesson.groupS.year }}</p>
+            <p>Semestr: {{ data.lesson.groupS.semester }}</p>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+    <mat-tab label="Uczniowie">
+      <ul *ngFor="let student of data.lessonInfo.groupStatic.userStudent">
+        <li class="listitem">
+          <div class="tekst">
+            <p>Login: {{ student.login }}</p>
+            <p>Imie i nazwisko: {{ student.imieNazwisko }}</p>
+            <p>E-mail: {{ student.email }}</p>
+            <p>Numer indeksu: {{ student.nrIndex }}</p>
+          </div>
+        </li>
+      </ul>
+    </mat-tab>
+    <mat-tab label="Zajęcia">
+      <button mat-raised-button (click)="newClasses()">
+        <mat-icon>add</mat-icon>
+      </button>
+
+      <mat-accordion displayMode="flat" multi class="mat-table">
+        <mat-expansion-panel *ngFor="let clas of classes">
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              {{ clas.theme }}
+            </mat-panel-title>
+            <mat-panel-description>
+              Data: {{ clas.dataClasses | date: "fullDate" }}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+            <button mat-button (click)="showFiles(clas)" class="file">Show Files</button>
+          
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+    Anuluj
+  </button>
+</div>

@@ -1,0 +1,24 @@
+@media (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
+.mat-tab-group{
+    margin-top: 10px;
+    background-color: #353131;
+    .mat-tab{
+        background-color: #7c7474;
+        table{
+            width: 100%;
+        }
+    }
+}
+.user{
+  background-color: #7c7474;
+  border-radius: 10px;
+  .tekst {
+    position: relative;
+    margin-left: 10px;
+    color: black;
+  }
+}

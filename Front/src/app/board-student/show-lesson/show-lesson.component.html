@@ -1,0 +1,40 @@
+<h2 mat-dialog-title>Przedmiot: {{lesson.subjectStudent.name}} - {{lesson.typLesson}}</h2>
+<div mat-dialog-content>
+  <mat-tab-group>
+    <mat-tab label="Informacja">
+      <div class="info">
+        <div class="inf">
+          <div class="tekst">
+          <p>Przedmiot: {{lesson.subjectStudent.name}}</p>
+          <p>Typ zajęć: {{lesson.typLesson}}</p>
+          <p>Czas zajęć: {{lesson.time}}</p>
+        </div>
+      </div>
+      <div class="inf">
+        <div class="tekst">
+          <h2>Nauczyciel</h2>
+          <p>Login: {{lesson.teacherInfo.user.login}}</p>
+          <p>Imie i Nazwisko: {{lesson.teacherInfo.user.imieNazwisko}}</p>
+          <p>e-mail: {{lesson.teacherInfo.user.email}}</p>
+          <p>Specjalizacja: {{lesson.teacherInfo.specjalize}}</p>
+        </div>
+      </div>
+    </div>
+    </mat-tab>
+    <mat-tab label="Lekcje">
+      <ul *ngFor="let clas of lesson.classes">
+        <li class="listitem">
+          <button mat-button class="file" (click)="showFile(clas)">
+            <p>Temat zajęć: {{clas.theme}}</p>
+            <p>Data zjaęć: {{clas.dataClasses}}</p>
+          </button>
+        </li>
+      </ul>
+    </mat-tab>
+  </mat-tab-group>
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+    Wyjdź
+  </button>
+</div>

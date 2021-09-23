@@ -1,0 +1,51 @@
+@media (min-width: 1200px) {
+    .container {
+      width: 1000px;
+    }
+  }
+.mat-tab-group{
+    margin-top: 10px;
+    background-color: #353131;
+    color: white;
+    .mat-tab{
+        background-color: #7c7474;
+        table{
+            width: 100%;
+        }
+    }
+}
+
+.info {
+  background-color: #888383;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  .tekst {
+    margin-left: 10px;
+    color: black;
+  }
+}
+
+.files{
+  background-color: #888383;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  .tekst {
+    margin-left: 10px;
+    color: black;
+  }
+}
+
+.file{
+  width: 100%;
+  background-color: #888383;
+  text-align: center;
+  color: black;
+}

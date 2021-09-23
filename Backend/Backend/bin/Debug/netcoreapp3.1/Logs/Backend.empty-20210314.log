@@ -1,0 +1,660 @@
+2021-03-14 08:02:58.1872|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 08:02:59.1594|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 08:02:59.2284|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 08:02:59.2334|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 08:02:59.2334|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 08:02:59.2334|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 08:02:59.2334|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 08:02:59.2334|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 10:27:09.1641|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 10:27:09.8684|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 10:27:09.9240|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 10:27:09.9240|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 10:27:09.9240|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 10:27:09.9240|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 10:27:09.9240|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 10:27:09.9240|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 10:27:14.3546|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76PDD7HKL4" received FIN.
+2021-03-14 10:27:14.3719|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL4" accepted.
+2021-03-14 10:27:14.3719|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL4" started.
+2021-03-14 10:27:14.3952|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5" accepted.
+2021-03-14 10:27:14.3952|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5" started.
+2021-03-14 10:27:14.4051|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76PDD7HKL4" sending FIN because: "The client closed the connection."
+2021-03-14 10:27:14.4051|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL4" disconnecting.
+2021-03-14 10:27:14.4194|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL4" stopped.
+2021-03-14 10:27:14.4411|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/authenticate text/plain 47
+2021-03-14 10:27:14.4411|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 10:27:14.5192|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/authenticate'
+2021-03-14 10:27:14.5192|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2021-03-14 10:27:14.5592|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2021-03-14 10:27:17.3176|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5" completed keep alive response.
+2021-03-14 10:27:17.3322|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 2890.5617ms 404 
+2021-03-14 10:27:17.3493|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5", Request id "0HM76PDD7HKL5:00000001": started reading request body.
+2021-03-14 10:27:17.3493|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5", Request id "0HM76PDD7HKL5:00000001": done reading request body.
+2021-03-14 10:27:44.9112|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/authenticate text/plain 47
+2021-03-14 10:27:44.9112|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/authenticate'
+2021-03-14 10:27:44.9112|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2021-03-14 10:27:44.9112|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2021-03-14 10:27:44.9112|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5" completed keep alive response.
+2021-03-14 10:27:44.9112|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 6.4007ms 404 
+2021-03-14 10:27:44.9186|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5", Request id "0HM76PDD7HKL5:00000002": started reading request body.
+2021-03-14 10:27:44.9186|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5", Request id "0HM76PDD7HKL5:00000002": done reading request body.
+2021-03-14 10:28:37.7157|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/authenticate application/json 51
+2021-03-14 10:28:37.7157|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/authenticate'
+2021-03-14 10:28:37.7157|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2021-03-14 10:28:37.7325|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2021-03-14 10:28:37.7325|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5" completed keep alive response.
+2021-03-14 10:28:37.7325|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 22.1237ms 404 
+2021-03-14 10:28:37.7325|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5", Request id "0HM76PDD7HKL5:00000003": started reading request body.
+2021-03-14 10:28:37.7325|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PDD7HKL5", Request id "0HM76PDD7HKL5:00000003": done reading request body.
+2021-03-14 10:56:42.3888|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 10:56:43.1833|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 10:56:43.2463|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 10:56:43.2508|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 10:56:43.2508|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 10:56:43.2508|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 10:56:43.2508|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 10:56:43.2508|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 10:56:53.6719|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76PTVGE1T6" received FIN.
+2021-03-14 10:56:53.6895|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PTVGE1T6" accepted.
+2021-03-14 10:56:53.6895|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PTVGE1T6" started.
+2021-03-14 10:56:53.6895|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PTVGE1T7" accepted.
+2021-03-14 10:56:53.6895|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PTVGE1T7" started.
+2021-03-14 10:56:53.7149|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76PTVGE1T6" sending FIN because: "The client closed the connection."
+2021-03-14 10:56:53.7170|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PTVGE1T6" disconnecting.
+2021-03-14 10:56:53.7170|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76PTVGE1T6" stopped.
+2021-03-14 10:56:53.7448|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 10:56:53.7488|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 10:56:53.8338|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 10:56:53.8338|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 10:56:53.8338|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 10:56:53.8778|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 10:56:55.9908|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 10:56:56.0439|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 10:56:56.2285|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 10:56:56.2309|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 10:56:56.2309|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 10:56:56.2309|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 10:56:56.2309|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 10:56:56.2309|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 10:56:56.2309|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 10:56:56.2309|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 10:56:56.2889|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 11:12:23.3745|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 11:12:24.1801|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 11:12:24.2426|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 11:12:24.2473|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 11:12:24.2473|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 11:12:24.2473|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 11:12:24.2473|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 11:12:24.2473|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 11:13:33.9141|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76Q79JFQ8F" received FIN.
+2021-03-14 11:13:33.9420|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8F" accepted.
+2021-03-14 11:13:33.9542|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8F" started.
+2021-03-14 11:13:33.9542|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8G" accepted.
+2021-03-14 11:13:33.9542|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8G" started.
+2021-03-14 11:13:33.9770|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76Q79JFQ8F" sending FIN because: "The client closed the connection."
+2021-03-14 11:13:33.9770|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8F" disconnecting.
+2021-03-14 11:13:33.9913|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8F" stopped.
+2021-03-14 11:13:34.0097|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 11:13:34.0152|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 11:13:34.0923|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 11:13:34.0923|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 11:13:34.0923|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 11:13:34.1372|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 11:13:36.0917|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 11:13:36.1377|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 11:13:36.3496|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 11:13:36.3496|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 11:13:36.3496|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 11:13:36.3496|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 11:13:36.3496|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 11:13:36.3496|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 11:13:36.3496|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 11:13:36.3564|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 11:13:43.6304|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.GetAll (Backend) in 7272.493ms
+2021-03-14 11:13:43.6304|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 11:13:43.6917|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8G", Request id "0HM76Q79JFQ8G:00000001": An unhandled exception was thrown by the application.|
+NHibernate.Exceptions.GenericADOException could not execute query
+[ select users0_.Id as col_0_0_, users0_.ImieNazwisko as col_1_0_, users0_.Password as col_2_0_, users0_.Email as col_3_0_, users0_.Login as col_4_0_, users0_.CzyAktywny as col_5_0_, users0_.RolaId as col_6_0_, users0_.AuditDataModifiedDate as col_7_0_, users0_.AuditDataCreatedDate as col_8_0_ from [Users] users0_ ]
+[SQL: select users0_.Id as col_0_0_, users0_.ImieNazwisko as col_1_0_, users0_.Password as col_2_0_, users0_.Email as col_3_0_, users0_.Login as col_4_0_, users0_.CzyAktywny as col_5_0_, users0_.RolaId as col_6_0_, users0_.AuditDataModifiedDate as col_7_0_, users0_.AuditDataCreatedDate as col_8_0_ from [Users] users0_]    at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer, QueryCacheResultBuilder queryCacheResultBuilder)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results, Object filterConnection)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](IQueryExpression query, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List[T]()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteList[TResult](Expression expression)
+   at NHibernate.Linq.NhQueryable`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Persistance.UserRepository.UsersRepository.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Persistance\UserRepository\UsersRepository.cs:line 22
+   at Model.UserModel.Service.UserService.getAll() in D:\PRACA_MAGISTERSKA\Backend\Model\UserModel\Service\UserService.cs:line 209
+   at Castle.Proxies.Invocations.IUserService_getAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Infrastructure.Transactions.TransactionInterceptor.Intercept(IInvocation invocation) in D:\PRACA_MAGISTERSKA\Backend\Infrastructure\Transactions\TransactionInterceptor.cs:line 44
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy.getAll()
+   at Backend.Auth.Services.UserService.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Backend\Auth\Services\UserService.cs:line 61
+   at Backend.Controllers.UsersController.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Backend\Controllers\UsersController.cs:line 49
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Backend.Auth.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in D:\PRACA_MAGISTERSKA\Backend\Backend\Auth\Helpers\JwtMiddleware.cs:line 34
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application) System.Collections.IList DoList(NHibernate.Engine.ISessionImplementor, NHibernate.Engine.QueryParameters, NHibernate.Transform.IResultTransformer, NHibernate.Cache.QueryCacheResultBuilder)
+SqlException Invalid column name 'AuditDataModifiedDate'.
+Invalid column name 'AuditDataCreatedDate'. Void OnError(System.Data.SqlClient.SqlException, Boolean, System.Action`1[System.Action])    at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at NHibernate.AdoNet.AbstractBatcher.DoExecuteReader(DbCommand cmd)
+   at NHibernate.AdoNet.AbstractBatcher.ExecuteReader(DbCommand cmd)
+   at NHibernate.Loader.Loader.GetResultSet(DbCommand st, QueryParameters queryParameters, ISessionImplementor session, IResultTransformer forcedResultTransformer)
+   at NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer, QueryCacheResultBuilder queryCacheResultBuilder)
+   at NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies, IResultTransformer forcedResultTransformer, QueryCacheResultBuilder queryCacheResultBuilder)
+   at NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters, IResultTransformer forcedResultTransformer, QueryCacheResultBuilder queryCacheResultBuilder)
+2021-03-14 11:13:43.8996|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q79JFQ8G" completed keep alive response.
+2021-03-14 11:13:43.9142|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 9905.6614ms 500 
+2021-03-14 11:16:30.1085|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 11:16:30.9305|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 11:16:30.9929|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 11:16:30.9972|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 11:16:30.9972|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 11:16:30.9972|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 11:16:30.9972|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 11:16:30.9972|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 11:16:45.0659|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76Q92IEJA0" received FIN.
+2021-03-14 11:16:45.0818|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA0" accepted.
+2021-03-14 11:16:45.0818|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA0" started.
+2021-03-14 11:16:45.0818|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA1" accepted.
+2021-03-14 11:16:45.0818|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA1" started.
+2021-03-14 11:16:45.0994|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76Q92IEJA0" sending FIN because: "The client closed the connection."
+2021-03-14 11:16:45.0994|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA0" disconnecting.
+2021-03-14 11:16:45.1063|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA0" stopped.
+2021-03-14 11:16:45.1274|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/Users/authenticate application/json 51
+2021-03-14 11:16:45.1274|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 11:16:45.2237|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users/authenticate'
+2021-03-14 11:16:45.2237|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/Users/authenticate'
+2021-03-14 11:16:45.2237|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-14 11:16:45.2629|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 11:16:47.1981|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-14 11:16:47.2480|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 11:16:47.5306|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 11:16:47.5306|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 11:16:47.5306|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 11:16:47.5306|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 11:16:47.5306|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 11:16:47.5306|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 11:16:47.5306|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 11:16:47.5306|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 11:16:47.5547|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-14 11:16:47.5547|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-14 11:16:47.5596|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-14 11:16:47.5596|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA1", Request id "0HM76Q92IEJA1:00000001": started reading request body.
+2021-03-14 11:16:47.5596|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76Q92IEJA1", Request id "0HM76Q92IEJA1:00000001": done reading request body.
+2021-03-14 11:16:47.5770|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-14 11:16:47.5770|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-14 11:16:47.5770|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-14 11:16:47.5770|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-14 11:16:47.5770|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-14 11:21:08.8200|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 11:21:09.5929|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 11:21:09.6553|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 11:21:09.6553|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 11:21:09.6553|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 11:21:09.6553|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 11:21:09.6553|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 11:21:09.6553|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 11:29:04.1545|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 11:29:04.9829|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 11:29:05.0426|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 11:29:05.0474|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 11:29:05.0474|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 11:29:05.0474|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 11:29:05.0474|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 11:29:05.0474|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 11:29:38.4900|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76QG92D15J" received FIN.
+2021-03-14 11:29:38.5153|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QG92D15J" accepted.
+2021-03-14 11:29:38.5153|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QG92D15J" started.
+2021-03-14 11:29:38.5310|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QG92D15K" accepted.
+2021-03-14 11:29:38.5310|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QG92D15K" started.
+2021-03-14 11:29:38.5310|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76QG92D15J" sending FIN because: "The client closed the connection."
+2021-03-14 11:29:38.5432|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QG92D15J" disconnecting.
+2021-03-14 11:29:38.5649|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QG92D15J" stopped.
+2021-03-14 11:29:38.5833|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Rola  
+2021-03-14 11:29:38.5833|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 11:29:38.6755|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Rola'
+2021-03-14 11:29:38.6755|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.RolaController.GetAll (Backend)' with route pattern 'Rola' is valid for the request path '/Rola'
+2021-03-14 11:29:38.6755|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.RolaController.GetAll (Backend)'
+2021-03-14 11:29:38.7231|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 11:29:40.8805|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.RolaController.GetAll (Backend)'
+2021-03-14 11:29:40.9385|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 11:29:41.1320|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Rola"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Model.UserModel.DTO.RolaDTO] GetAll() on controller Backend.Controllers.RolaController (Backend).
+2021-03-14 11:29:41.1320|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 11:29:41.1320|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 11:29:41.1320|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 11:29:41.1320|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 11:29:41.1320|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 11:29:41.1381|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.RolaController (Backend)
+2021-03-14 11:29:41.1381|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.RolaController (Backend)
+2021-03-14 11:29:41.1929|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.RolaController.GetAll (Backend) - Validation state: Valid
+2021-03-14 11:29:41.7911|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.RolaController.GetAll (Backend), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 594.3042ms.
+2021-03-14 11:29:41.8918|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-14 11:29:41.9073|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-14 11:29:41.9073|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-14 11:29:41.9073|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-14 11:29:41.9073|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-14 11:29:41.9073|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Model.UserModel.DTO.RolaDTO, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-14 11:29:41.9575|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.RolaController.GetAll (Backend) in 817.5523ms
+2021-03-14 11:29:41.9575|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.RolaController.GetAll (Backend)'
+2021-03-14 11:29:41.9575|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QG92D15K" completed keep alive response.
+2021-03-14 11:29:41.9850|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3402.2682ms 200 application/json; charset=utf-8
+2021-03-14 11:43:55.2195|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 11:43:56.0626|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 11:43:56.1247|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 11:43:56.1247|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 11:43:56.1247|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 11:43:56.1247|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 11:43:56.1247|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 11:43:56.1247|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 11:44:12.2853|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76QODFI6U7" received FIN.
+2021-03-14 11:44:12.3122|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QODFI6U7" accepted.
+2021-03-14 11:44:12.3122|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QODFI6U7" started.
+2021-03-14 11:44:12.3122|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QODFI6U8" accepted.
+2021-03-14 11:44:12.3122|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QODFI6U8" started.
+2021-03-14 11:44:12.3422|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76QODFI6U7" sending FIN because: "The client closed the connection."
+2021-03-14 11:44:12.3422|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QODFI6U7" disconnecting.
+2021-03-14 11:44:12.3422|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76QODFI6U7" stopped.
+2021-03-14 11:44:12.3659|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 11:44:12.3659|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 11:44:12.4575|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 11:44:12.4575|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 11:44:12.4575|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 11:44:12.5017|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 11:44:14.5940|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 11:44:14.6552|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 11:44:14.8482|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 11:44:14.8482|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 11:44:14.8482|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 11:44:14.8482|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 11:44:14.8482|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 11:44:14.8482|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 11:44:14.8482|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 11:44:14.8568|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 11:44:14.9038|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 12:02:24.7402|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 12:02:25.5181|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 12:02:25.5923|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 12:02:25.5923|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 12:02:25.5923|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 12:02:25.5923|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 12:02:25.5923|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 12:02:25.5923|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 12:02:30.5050|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76R2KP075V" received FIN.
+2021-03-14 12:02:30.5203|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP075V" accepted.
+2021-03-14 12:02:30.5203|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP075V" started.
+2021-03-14 12:02:30.5203|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP0760" accepted.
+2021-03-14 12:02:30.5203|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP0760" started.
+2021-03-14 12:02:30.5362|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76R2KP075V" sending FIN because: "The client closed the connection."
+2021-03-14 12:02:30.5362|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP075V" disconnecting.
+2021-03-14 12:02:30.5436|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP075V" stopped.
+2021-03-14 12:02:30.5687|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 12:02:30.5687|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 12:02:30.6611|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 12:02:30.6611|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 12:02:30.6611|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:02:30.7085|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 12:02:32.7995|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:02:32.8431|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 12:02:33.0394|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 12:02:33.0394|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 12:02:33.0394|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 12:02:33.0394|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 12:02:33.0440|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 12:02:33.0440|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 12:02:33.0440|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:02:33.0440|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:02:33.0933|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 12:02:39.0431|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.GetAll (Backend) in 5995.1168ms
+2021-03-14 12:02:39.0450|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:02:39.0933|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP0760", Request id "0HM76R2KP0760:00000001": An unhandled exception was thrown by the application.|
+NHibernate.Exceptions.GenericADOException Could not execute query[SQL: SQL not available]    at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results, Object filterConnection)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](IQueryExpression query, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List[T]()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteList[TResult](Expression expression)
+   at NHibernate.Linq.NhQueryable`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Persistance.UserRepository.UsersRepository.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Persistance\UserRepository\UsersRepository.cs:line 22
+   at Model.UserModel.Service.UserService.getAll() in D:\PRACA_MAGISTERSKA\Backend\Model\UserModel\Service\UserService.cs:line 208
+   at Castle.Proxies.Invocations.IUserService_getAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Infrastructure.Transactions.TransactionInterceptor.Intercept(IInvocation invocation) in D:\PRACA_MAGISTERSKA\Backend\Infrastructure\Transactions\TransactionInterceptor.cs:line 44
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy.getAll()
+   at Backend.Auth.Services.UserService.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Backend\Auth\Services\UserService.cs:line 61
+   at Backend.Controllers.UsersController.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Backend\Controllers\UsersController.cs:line 49
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Backend.Auth.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in D:\PRACA_MAGISTERSKA\Backend\Backend\Auth\Helpers\JwtMiddleware.cs:line 34
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application) Void List(NHibernate.IQueryExpression, NHibernate.Engine.QueryParameters, System.Collections.IList, System.Object)
+NullReferenceException Object reference not set to an instance of an object. System.Object lambda_method(System.Runtime.CompilerServices.Closure, System.Object[])    at lambda_method(Closure , Object[] )
+   at NHibernate.Linq.ResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Hql.QueryLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results, Object filterConnection)
+2021-03-14 12:02:39.2075|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP0760" completed keep alive response.
+2021-03-14 12:02:39.2218|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 8653.4326ms 500 
+2021-03-14 12:03:12.8000|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 12:03:12.8124|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:03:12.8124|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 12:03:12.8124|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:03:12.8248|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:03:12.8475|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 12:03:20.5369|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.GetAll (Backend) in 7712.8082ms
+2021-03-14 12:03:20.5369|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:03:20.5826|ERROR|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP0760", Request id "0HM76R2KP0760:00000002": An unhandled exception was thrown by the application.|
+NHibernate.Exceptions.GenericADOException Could not execute query[SQL: SQL not available]    at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results, Object filterConnection)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results)
+   at NHibernate.Impl.AbstractSessionImpl.List[T](IQueryExpression query, QueryParameters parameters)
+   at NHibernate.Impl.AbstractQueryImpl2.List[T]()
+   at NHibernate.Linq.DefaultQueryProvider.ExecuteList[TResult](Expression expression)
+   at NHibernate.Linq.NhQueryable`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Persistance.UserRepository.UsersRepository.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Persistance\UserRepository\UsersRepository.cs:line 22
+   at Model.UserModel.Service.UserService.getAll() in D:\PRACA_MAGISTERSKA\Backend\Model\UserModel\Service\UserService.cs:line 208
+   at Castle.Proxies.Invocations.IUserService_getAll.InvokeMethodOnTarget()
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Infrastructure.Transactions.TransactionInterceptor.Intercept(IInvocation invocation) in D:\PRACA_MAGISTERSKA\Backend\Infrastructure\Transactions\TransactionInterceptor.cs:line 44
+   at Castle.DynamicProxy.AbstractInvocation.Proceed()
+   at Castle.Proxies.IApplicationServiceProxy.getAll()
+   at Backend.Auth.Services.UserService.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Backend\Auth\Services\UserService.cs:line 61
+   at Backend.Controllers.UsersController.GetAll() in D:\PRACA_MAGISTERSKA\Backend\Backend\Controllers\UsersController.cs:line 49
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Backend.Auth.Helpers.JwtMiddleware.Invoke(HttpContext context, IUserService userService) in D:\PRACA_MAGISTERSKA\Backend\Backend\Auth\Helpers\JwtMiddleware.cs:line 34
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application) Void List(NHibernate.IQueryExpression, NHibernate.Engine.QueryParameters, System.Collections.IList, System.Object)
+NullReferenceException Object reference not set to an instance of an object. System.Object lambda_method(System.Runtime.CompilerServices.Closure, System.Object[])    at lambda_method(Closure , Object[] )
+   at NHibernate.Linq.ResultTransformer.TransformTuple(Object[] tuple, String[] aliases)
+   at NHibernate.Loader.Hql.QueryLoader.GetResultList(IList results, IResultTransformer resultTransformer)
+   at NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Loader.Loader.List(ISessionImplementor session, QueryParameters queryParameters, ISet`1 querySpaces)
+   at NHibernate.Loader.Hql.QueryLoader.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Hql.Ast.ANTLR.QueryTranslatorImpl.List(ISessionImplementor session, QueryParameters queryParameters)
+   at NHibernate.Engine.Query.HQLQueryPlan.PerformList(QueryParameters queryParameters, ISessionImplementor session, IList results)
+   at NHibernate.Impl.SessionImpl.List(IQueryExpression queryExpression, QueryParameters queryParameters, IList results, Object filterConnection)
+2021-03-14 12:03:20.6015|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76R2KP0760" completed keep alive response.
+2021-03-14 12:03:20.6121|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 7812.1082ms 500 
+2021-03-14 12:18:44.4608|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 12:18:45.2541|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 12:18:45.3162|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 12:18:45.3162|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 12:18:45.3162|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 12:18:45.3162|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 12:18:45.3162|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 12:18:45.3162|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 12:18:49.0890|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RBODG9K6" received FIN.
+2021-03-14 12:18:49.1067|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RBODG9K6" accepted.
+2021-03-14 12:18:49.1067|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RBODG9K6" started.
+2021-03-14 12:18:49.1316|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RBODG9K7" accepted.
+2021-03-14 12:18:49.1316|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RBODG9K7" started.
+2021-03-14 12:18:49.1422|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RBODG9K6" sending FIN because: "The client closed the connection."
+2021-03-14 12:18:49.1422|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RBODG9K6" disconnecting.
+2021-03-14 12:18:49.1575|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RBODG9K6" stopped.
+2021-03-14 12:18:49.1813|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 12:18:49.1857|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 12:18:49.2639|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 12:18:49.2639|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 12:18:49.2639|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:18:49.3159|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 12:18:51.3916|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:18:51.4387|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 12:18:51.6420|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 12:18:51.6420|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 12:18:51.6420|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 12:18:51.6420|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 12:18:51.6420|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 12:18:51.6420|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 12:18:51.6420|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:18:51.6420|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:18:51.6980|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 12:19:33.4880|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 12:19:34.2952|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 12:19:34.3571|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 12:19:34.3571|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 12:19:34.3571|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 12:19:34.3571|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 12:19:34.3571|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 12:19:34.3571|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 12:19:39.8634|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RC7HNH2O" received FIN.
+2021-03-14 12:19:39.8799|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RC7HNH2O" accepted.
+2021-03-14 12:19:39.8799|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RC7HNH2O" started.
+2021-03-14 12:19:39.8799|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RC7HNH2P" accepted.
+2021-03-14 12:19:39.8799|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RC7HNH2P" started.
+2021-03-14 12:19:39.9064|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RC7HNH2O" sending FIN because: "The client closed the connection."
+2021-03-14 12:19:39.9064|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RC7HNH2O" disconnecting.
+2021-03-14 12:19:39.9218|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RC7HNH2O" stopped.
+2021-03-14 12:19:39.9437|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 12:19:39.9437|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 12:19:40.0243|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 12:19:40.0243|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 12:19:40.0286|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:19:40.0702|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 12:19:42.1281|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:19:42.1717|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 12:19:42.3731|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 12:19:42.3731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 12:19:42.3731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 12:19:42.3731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 12:19:42.3731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 12:19:42.3731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 12:19:42.3731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:19:42.3731|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:19:42.4355|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 12:20:28.4605|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 12:20:29.2465|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 12:20:29.3098|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 12:20:29.3098|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 12:20:29.3098|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 12:20:29.3098|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 12:20:29.3098|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 12:20:29.3098|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 12:20:32.5275|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RCN7VA13" received FIN.
+2021-03-14 12:20:32.5460|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RCN7VA13" accepted.
+2021-03-14 12:20:32.5460|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RCN7VA13" started.
+2021-03-14 12:20:32.5630|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RCN7VA14" accepted.
+2021-03-14 12:20:32.5630|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RCN7VA14" started.
+2021-03-14 12:20:32.5630|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RCN7VA13" sending FIN because: "The client closed the connection."
+2021-03-14 12:20:32.5774|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RCN7VA13" disconnecting.
+2021-03-14 12:20:32.5912|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RCN7VA13" stopped.
+2021-03-14 12:20:32.6090|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 12:20:32.6090|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 12:20:32.6918|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 12:20:32.6918|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 12:20:32.6918|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:20:32.7351|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 12:20:34.8171|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:20:34.8603|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 12:20:35.0550|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 12:20:35.0550|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 12:20:35.0550|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 12:20:35.0550|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 12:20:35.0550|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 12:20:35.0598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 12:20:35.0598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:20:35.0598|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:20:35.1128|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 12:20:35.7354|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.GetAll (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 618.6452ms.
+2021-03-14 12:20:35.8261|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-14 12:20:35.8261|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-14 12:20:35.8261|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-14 12:20:35.8261|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-14 12:20:35.8261|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-14 12:20:35.8261|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Model.UserModel.DTO.UserDTO, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-14 12:20:35.8740|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.GetAll (Backend) in 810.6857ms
+2021-03-14 12:20:35.8740|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:20:35.8740|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RCN7VA14" completed keep alive response.
+2021-03-14 12:20:35.8925|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3284.279ms 200 application/json; charset=utf-8
+2021-03-14 12:29:21.9978|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 12:29:22.8014|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 12:29:22.8617|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 12:29:22.8617|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 12:29:22.8617|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 12:29:22.8617|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 12:29:22.8617|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 12:29:22.8617|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 12:29:32.2132|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RHO2QAH3" received FIN.
+2021-03-14 12:29:32.2301|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RHO2QAH3" accepted.
+2021-03-14 12:29:32.2420|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RHO2QAH3" started.
+2021-03-14 12:29:32.2560|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RHO2QAH4" accepted.
+2021-03-14 12:29:32.2560|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RHO2QAH4" started.
+2021-03-14 12:29:32.2653|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RHO2QAH3" sending FIN because: "The client closed the connection."
+2021-03-14 12:29:32.2653|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RHO2QAH3" disconnecting.
+2021-03-14 12:29:32.2811|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RHO2QAH3" stopped.
+2021-03-14 12:29:32.3040|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Users  
+2021-03-14 12:29:32.3040|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 12:29:32.3716|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users'
+2021-03-14 12:29:32.3716|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.GetAll (Backend)' with route pattern 'Users' is valid for the request path '/Users'
+2021-03-14 12:29:32.3880|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:29:32.4287|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 12:29:34.5152|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:29:34.5756|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 12:29:34.7592|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetAll", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 12:29:34.7592|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 12:29:34.7592|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 12:29:34.7627|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 12:29:34.7627|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 12:29:34.7627|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 12:29:34.7627|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:29:34.7627|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:29:34.8170|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.GetAll (Backend) - Validation state: Valid
+2021-03-14 12:29:35.3539|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.GetAll (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 532.9774ms.
+2021-03-14 12:29:35.4527|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-14 12:29:35.4527|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-14 12:29:35.4527|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-14 12:29:35.4527|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-14 12:29:35.4527|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-14 12:29:35.4527|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Model.UserModel.Entity.Users, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-03-14 12:29:35.6046|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.GetAll (Backend) in 836.7145ms
+2021-03-14 12:29:35.6062|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.GetAll (Backend)'
+2021-03-14 12:29:35.6062|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RHO2QAH4" completed keep alive response.
+2021-03-14 12:29:35.6234|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3320.1454ms 200 application/json; charset=utf-8
+2021-03-14 12:30:03.5975|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-03-14 12:30:04.3834|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-03-14 12:30:04.4458|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-03-14 12:30:04.4503|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-03-14 12:30:04.4503|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-03-14 12:30:04.4503|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-03-14 12:30:04.4503|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-03-14 12:30:04.4503|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-03-14 12:31:10.6523|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RILDJHF8" received FIN.
+2021-03-14 12:31:10.6770|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF8" accepted.
+2021-03-14 12:31:10.6770|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF8" started.
+2021-03-14 12:31:10.6770|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF9" accepted.
+2021-03-14 12:31:10.6770|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF9" started.
+2021-03-14 12:31:10.7018|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM76RILDJHF8" sending FIN because: "The client closed the connection."
+2021-03-14 12:31:10.7018|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF8" disconnecting.
+2021-03-14 12:31:10.7163|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF8" stopped.
+2021-03-14 12:31:10.7345|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/Users/authenticate application/json 51
+2021-03-14 12:31:10.7345|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-03-14 12:31:10.8219|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Users/authenticate'
+2021-03-14 12:31:10.8219|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/Users/authenticate'
+2021-03-14 12:31:10.8253|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-14 12:31:10.8590|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-03-14 12:31:12.9051|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-14 12:31:12.9676|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-03-14 12:31:13.2222|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-03-14 12:31:13.2222|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-03-14 12:31:13.2222|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-03-14 12:31:13.2222|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-03-14 12:31:13.2222|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-03-14 12:31:13.2222|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-03-14 12:31:13.2222|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:31:13.2307|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-03-14 12:31:13.2307|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-14 12:31:13.2492|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-03-14 12:31:13.2492|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-03-14 12:31:13.2492|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF9", Request id "0HM76RILDJHF9:00000001": started reading request body.
+2021-03-14 12:31:13.2492|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF9", Request id "0HM76RILDJHF9:00000001": done reading request body.
+2021-03-14 12:31:13.2650|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-03-14 12:31:13.2650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-14 12:31:13.2650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-14 12:31:13.2650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-03-14 12:31:13.2650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-03-14 12:31:13.3254|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-03-14 12:31:16.0309|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2701.254ms.
+2021-03-14 12:31:16.1243|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-03-14 12:31:16.1243|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-03-14 12:31:16.1243|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-03-14 12:31:16.1243|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-03-14 12:31:16.1382|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-03-14 12:31:16.1382|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-03-14 12:31:16.1562|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 2924.6216ms
+2021-03-14 12:31:16.1562|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-03-14 12:31:16.1562|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM76RILDJHF9" completed keep alive response.
+2021-03-14 12:31:16.1765|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 5442.6989ms 200 application/json; charset=utf-8

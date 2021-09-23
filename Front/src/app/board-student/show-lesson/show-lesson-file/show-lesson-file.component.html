@@ -1,0 +1,14 @@
+<div mat-dialog-content>
+    <ul *ngFor="let mat of data.materials">
+        <li class="listitem">
+          <div class="tekst" (click)="download(mat.id)">
+            <p>Nazwa pliku: {{mat.name}}</p>
+          </div>
+        </li>
+      </ul>
+</div>
+<div mat-dialog-actions>
+    <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+      Wyjdź
+    </button>
+  </div>

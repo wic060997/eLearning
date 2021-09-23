@@ -1,0 +1,574 @@
+2021-05-24 23:00:28.3694|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2021-05-24 23:00:29.0182|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Failed to locate the development https certificate at '(null)'.
+2021-05-24 23:00:29.1026|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:8111
+2021-05-24 23:00:29.1026|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Backend
+2021-05-24 23:00:29.1026|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2021-05-24 23:00:29.1026|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2021-05-24 23:00:29.1026|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\PRACA_MAGISTERSKA\Backend\Backend
+2021-05-24 23:00:29.1026|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2021-05-24 23:00:38.5091|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" accepted.
+2021-05-24 23:00:38.5091|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" started.
+2021-05-24 23:00:38.5558|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 OPTIONS http://localhost:8111/users/authenticate  
+2021-05-24 23:00:38.5558|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2021-05-24 23:00:38.5856|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-05-24 23:00:38.5856|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint '405 HTTP Method Not Supported'
+2021-05-24 23:00:38.6004|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:00:38.6004|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:00:38.6004|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request is a preflight request.
+2021-05-24 23:00:38.6361|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:00:38.6529|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 97.2809ms 204 
+2021-05-24 23:00:38.6859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 POST http://localhost:8111/users/authenticate application/json 33
+2021-05-24 23:00:38.6859|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/authenticate'
+2021-05-24 23:00:38.6859|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)' with route pattern 'Users/authenticate' is valid for the request path '/users/authenticate'
+2021-05-24 23:00:38.6859|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-05-24 23:00:38.6859|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:00:38.6859|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:00:38.7094|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:38.7094|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:38.7306|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:41.7218|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-05-24 23:00:41.7417|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexTypeModelBinderProvider
+2021-05-24 23:00:41.8064|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Authenticate", controller = "Users"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Authenticate(Backend.Auth.Models.AuthenticateRequest) on controller Backend.Controllers.UsersController (Backend).
+2021-05-24 23:00:41.8064|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:00:41.8064|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:00:41.8064|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:00:41.8064|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:00:41.8064|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:00:41.8064|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:00:41.8775|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:00:41.8858|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-05-24 23:00:41.8858|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' using the name '' in request data ...
+2021-05-24 23:00:41.8858|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2021-05-24 23:00:41.9006|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES", Request id "0HM8UURTSTDES:00000002": started reading request body.
+2021-05-24 23:00:41.9006|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES", Request id "0HM8UURTSTDES:00000002": done reading request body.
+2021-05-24 23:00:41.9006|DEBUG|Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter|JSON input formatter succeeded, deserializing to type 'Backend.Auth.Models.AuthenticateRequest'
+2021-05-24 23:00:41.9006|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-05-24 23:00:41.9006|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-05-24 23:00:41.9006|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest' ...
+2021-05-24 23:00:41.9178|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'model' of type 'Backend.Auth.Models.AuthenticateRequest'.
+2021-05-24 23:00:41.9769|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Authenticate (Backend) - Validation state: Valid
+2021-05-24 23:00:43.8973|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Authenticate (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1917.1531ms.
+2021-05-24 23:00:43.8973|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:00:43.8973|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:00:43.8973|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:00:43.8973|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:00:43.9146|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:00:43.9146|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Backend.Auth.Models.AuthenticateResponse'.
+2021-05-24 23:00:43.9438|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Authenticate (Backend) in 2123.4482ms
+2021-05-24 23:00:43.9464|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Authenticate (Backend)'
+2021-05-24 23:00:43.9464|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:00:43.9464|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 5270.5934ms 200 application/json; charset=utf-8
+2021-05-24 23:00:44.0329|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655  
+2021-05-24 23:00:44.0329|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" accepted.
+2021-05-24 23:00:44.0329|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)' with route pattern 'Teacher/GetInfoTeacher/{id}' is valid for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" started.
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:00:44.0390|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:00:44.0390|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655  
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:44.0390|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Get (Backend)' with route pattern 'Users/get/{id}' is valid for the request path '/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:00:44.0548|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:00:44.0548|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:00:44.0712|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:00:44.0712|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:00:44.0712|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetInfoteacher", controller = "Teacher"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetInfoteacher(System.Guid) on controller Backend.Controllers.TeacherController (Backend).
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:00:44.0903|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:00:44.0903|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:00:44.1008|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature Model.UserModel.DTO.UserDTO Get(System.Guid) on controller Backend.Controllers.UsersController (Backend).
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:00:44.1008|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:00:44.1214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:00:44.1214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:00:44.1214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:00:44.1214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:00:44.1214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:00:44.1214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:00:44.1764|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.TeacherController.GetInfoteacher (Backend) - Validation state: Valid
+2021-05-24 23:00:44.2130|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Get (Backend) - Validation state: Valid
+2021-05-24 23:00:44.3281|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Get (Backend), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 110.803ms.
+2021-05-24 23:00:44.3281|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:00:44.3281|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:00:44.3281|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:00:44.3281|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:00:44.3281|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:00:44.3281|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.UserModel.DTO.UserDTO'.
+2021-05-24 23:00:44.3495|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Get (Backend) in 242.4022ms
+2021-05-24 23:00:44.3504|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:00:44.3504|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" completed keep alive response.
+2021-05-24 23:00:44.3504|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 311.0965ms 200 application/json; charset=utf-8
+2021-05-24 23:00:44.7305|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.TeacherController.GetInfoteacher (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 516.8586ms.
+2021-05-24 23:00:44.7305|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:00:44.7305|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:00:44.7305|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:00:44.7305|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:00:44.7305|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:00:44.7305|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.TeacherModel.DTO.TeacherInformationDTO'.
+2021-05-24 23:00:44.7424|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.TeacherController.GetInfoteacher (Backend) in 644.2468ms
+2021-05-24 23:00:44.7424|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:00:44.7424|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:00:44.7424|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 711.8543ms 200 application/json; charset=utf-8
+2021-05-24 23:03:03.4884|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f  
+2021-05-24 23:03:03.5048|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:03.5191|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)' with route pattern 'Lesson/GetLesson/{id}' is valid for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:03.5191|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:03.5191|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:03.5224|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:03.5224|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.5224|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.5224|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.5224|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:03.5224|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetLesson", controller = "Lesson"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLesson(System.Guid) on controller Backend.Controllers.LessonController (Backend).
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:03.5389|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.5741|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.LessonController.GetLesson (Backend) - Validation state: Valid
+2021-05-24 23:03:03.6455|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.LessonController.GetLesson (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 70.7992ms.
+2021-05-24 23:03:03.6469|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:03.6469|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:03.6469|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:03.6469|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:03.6469|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:03.6469|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.LessonModel.DTO.LessonDTO'.
+2021-05-24 23:03:03.6469|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.LessonController.GetLesson (Backend) in 113.4213ms
+2021-05-24 23:03:03.6469|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:03.6469|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:03:03.6469|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 167.9982ms 200 application/json; charset=utf-8
+2021-05-24 23:03:03.6742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f  
+2021-05-24 23:03:03.6742|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/classes/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f  
+2021-05-24 23:03:03.6742|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/classes/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:03.6742|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)' with route pattern 'Classes/GetLesson/{id}' is valid for the request path '/classes/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:03.6742|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:03.6742|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)'
+2021-05-24 23:03:03.6742|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)' with route pattern 'Lesson/GetLesson/{id}' is valid for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:03.6790|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.6790|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:03.6790|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)'
+2021-05-24 23:03:03.6790|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:03.6790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetLesson", controller = "Lesson"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLesson(System.Guid) on controller Backend.Controllers.LessonController (Backend).
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:03.6790|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetClassesFromLesson", controller = "Classes"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Model.ClassesModel.DTO.ClassesDTO] GetClassesFromLesson(System.Guid) on controller Backend.Controllers.ClassesController (Backend).
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.ClassesController (Backend)
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:03.6790|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.7151|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.LessonController.GetLesson (Backend) - Validation state: Valid
+2021-05-24 23:03:03.8245|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.ClassesController (Backend)
+2021-05-24 23:03:03.8245|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:03.8245|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:03.8245|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.8245|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.8245|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:03.8245|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:03.8573|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.ClassesController.GetClassesFromLesson (Backend) - Validation state: Valid
+2021-05-24 23:03:03.9023|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.LessonController.GetLesson (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 181.3183ms.
+2021-05-24 23:03:03.9023|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:03.9023|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:03.9023|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:03.9023|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:03.9023|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:03.9023|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.LessonModel.DTO.LessonDTO'.
+2021-05-24 23:03:03.9023|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.LessonController.GetLesson (Backend) in 220.144ms
+2021-05-24 23:03:03.9023|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:03.9023|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:03:03.9023|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 234.1014ms 200 application/json; charset=utf-8
+2021-05-24 23:03:04.0070|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.ClassesController.GetClassesFromLesson (Backend), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 107.0722ms.
+2021-05-24 23:03:04.0070|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:04.0070|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:04.0070|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:04.0070|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:04.0070|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:04.0070|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Model.ClassesModel.DTO.ClassesDTO, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-24 23:03:04.0070|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.ClassesController.GetClassesFromLesson (Backend) in 333.7866ms
+2021-05-24 23:03:04.0070|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)'
+2021-05-24 23:03:04.0228|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" completed keep alive response.
+2021-05-24 23:03:04.0228|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 348.4147ms 200 application/json; charset=utf-8
+2021-05-24 23:03:11.1055|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655  
+2021-05-24 23:03:11.1055|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:03:11.1055|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)' with route pattern 'Teacher/GetInfoTeacher/{id}' is valid for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:03:11.1055|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:03:11.1055|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:11.1055|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:11.1168|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:03:11.1168|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetInfoteacher", controller = "Teacher"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetInfoteacher(System.Guid) on controller Backend.Controllers.TeacherController (Backend).
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:11.1168|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:11.1597|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.TeacherController.GetInfoteacher (Backend) - Validation state: Valid
+2021-05-24 23:03:11.4259|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.TeacherController.GetInfoteacher (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 265.4606ms.
+2021-05-24 23:03:11.4259|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:11.4285|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:11.4285|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:11.4285|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:11.4285|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:11.4285|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.TeacherModel.DTO.TeacherInformationDTO'.
+2021-05-24 23:03:11.4285|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.TeacherController.GetInfoteacher (Backend) in 308.4903ms
+2021-05-24 23:03:11.4285|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:03:11.4285|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" completed keep alive response.
+2021-05-24 23:03:11.4285|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 330.6438ms 200 application/json; charset=utf-8
+2021-05-24 23:03:17.0978|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f  
+2021-05-24 23:03:17.0978|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:17.0978|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)' with route pattern 'Lesson/GetLesson/{id}' is valid for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:17.1009|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.1009|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:17.1009|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetLesson", controller = "Lesson"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLesson(System.Guid) on controller Backend.Controllers.LessonController (Backend).
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:17.1009|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:17.1164|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.1480|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.LessonController.GetLesson (Backend) - Validation state: Valid
+2021-05-24 23:03:17.2118|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.LessonController.GetLesson (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 62.8268ms.
+2021-05-24 23:03:17.2118|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:17.2118|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:17.2118|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:17.2118|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:17.2118|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:17.2118|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.LessonModel.DTO.LessonDTO'.
+2021-05-24 23:03:17.2118|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.LessonController.GetLesson (Backend) in 98.7008ms
+2021-05-24 23:03:17.2118|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:17.2118|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" completed keep alive response.
+2021-05-24 23:03:17.2118|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 121.5094ms 200 application/json; charset=utf-8
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f  
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)' with route pattern 'Lesson/GetLesson/{id}' is valid for the request path '/Lesson/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/classes/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f  
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/classes/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)' with route pattern 'Classes/GetLesson/{id}' is valid for the request path '/classes/GetLesson/a46e3d2b-d898-4a4b-af30-3ae62e3dd53f'
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)'
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetLesson", controller = "Lesson"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetLesson(System.Guid) on controller Backend.Controllers.LessonController (Backend).
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)'
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:17.2280|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetClassesFromLesson", controller = "Classes"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[Model.ClassesModel.DTO.ClassesDTO] GetClassesFromLesson(System.Guid) on controller Backend.Controllers.ClassesController (Backend).
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.LessonController (Backend)
+2021-05-24 23:03:17.2280|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.ClassesController (Backend)
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.ClassesController (Backend)
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:17.2407|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.2696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.2696|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.LessonController.GetLesson (Backend) - Validation state: Valid
+2021-05-24 23:03:17.2696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:17.2696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:17.2951|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.ClassesController.GetClassesFromLesson (Backend) - Validation state: Valid
+2021-05-24 23:03:17.3529|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.LessonController.GetLesson (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 82.4809ms.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:17.3868|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.ClassesController.GetClassesFromLesson (Backend), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 90.337ms.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:17.3868|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:17.3868|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.LessonModel.DTO.LessonDTO'.
+2021-05-24 23:03:17.3868|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Model.ClassesModel.DTO.ClassesDTO, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-24 23:03:17.3868|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.LessonController.GetLesson (Backend) in 150.94ms
+2021-05-24 23:03:17.3868|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.ClassesController.GetClassesFromLesson (Backend) in 149.6948ms
+2021-05-24 23:03:17.3868|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.LessonController.GetLesson (Backend)'
+2021-05-24 23:03:17.3984|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" completed keep alive response.
+2021-05-24 23:03:17.3868|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.ClassesController.GetClassesFromLesson (Backend)'
+2021-05-24 23:03:17.3984|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:03:17.3984|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 171.3554ms 200 application/json; charset=utf-8
+2021-05-24 23:03:17.3984|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 171.7732ms 200 application/json; charset=utf-8
+2021-05-24 23:03:20.7503|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/material/GetClasses/926d842e-c048-446c-80f1-3937759a3a21  
+2021-05-24 23:03:20.7503|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/material/GetClasses/926d842e-c048-446c-80f1-3937759a3a21'
+2021-05-24 23:03:20.7503|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.MaterialController.GetSubject (Backend)' with route pattern 'Material/GetClasses/{id}' is valid for the request path '/material/GetClasses/926d842e-c048-446c-80f1-3937759a3a21'
+2021-05-24 23:03:20.7503|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.MaterialController.GetSubject (Backend)'
+2021-05-24 23:03:20.7503|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:03:20.7503|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:03:20.7503|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:20.7503|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:20.7571|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:03:20.7571|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.MaterialController.GetSubject (Backend)'
+2021-05-24 23:03:20.7571|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetSubject", controller = "Material"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetSubject(System.Guid) on controller Backend.Controllers.MaterialController (Backend).
+2021-05-24 23:03:20.7571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:03:20.7571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:03:20.7571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:03:20.7571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:03:20.7571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:03:20.7571|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.MaterialController (Backend)
+2021-05-24 23:03:20.8343|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.MaterialController (Backend)
+2021-05-24 23:03:20.8349|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:20.8349|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:03:20.8349|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:20.8349|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:20.8349|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:03:20.8349|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:03:20.8749|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.MaterialController.GetSubject (Backend) - Validation state: Valid
+2021-05-24 23:03:20.9502|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.MaterialController.GetSubject (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 72.6863ms.
+2021-05-24 23:03:20.9502|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:03:20.9502|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:03:20.9502|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:03:20.9502|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:03:20.9502|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:03:20.9502|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'System.Collections.Generic.List`1[[Model.MaterialModel.DTO.MaterialInfoDTO, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2021-05-24 23:03:20.9502|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.MaterialController.GetSubject (Backend) in 187.0826ms
+2021-05-24 23:03:20.9502|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.MaterialController.GetSubject (Backend)'
+2021-05-24 23:03:20.9601|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:03:20.9601|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 210.8006ms 200 application/json; charset=utf-8
+2021-05-24 23:06:28.0627|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655  
+2021-05-24 23:06:28.6643|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:06:29.2091|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)' with route pattern 'Teacher/GetInfoTeacher/{id}' is valid for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:06:29.3161|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:06:29.3161|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:06:29.3225|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:06:28.0709|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655  
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Get (Backend)' with route pattern 'Users/get/{id}' is valid for the request path '/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:06:29.4767|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:06:29.4767|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:06:29.4767|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:06:29.4767|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetInfoteacher", controller = "Teacher"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetInfoteacher(System.Guid) on controller Backend.Controllers.TeacherController (Backend).
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:06:29.7058|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:06:29.7096|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:06:29.7096|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:06:29.7096|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:06:29.7096|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:06:29.7096|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:06:29.7058|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:06:29.9406|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.TeacherController.GetInfoteacher (Backend) - Validation state: Valid
+2021-05-24 23:06:29.9406|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature Model.UserModel.DTO.UserDTO Get(System.Guid) on controller Backend.Controllers.UsersController (Backend).
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:06:29.9490|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:06:30.0735|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Get (Backend) - Validation state: Valid
+2021-05-24 23:06:31.1591|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Get (Backend), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 1070.9843ms.
+2021-05-24 23:06:31.3467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:06:31.3467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:06:31.3467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:06:31.3467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:06:31.3467|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:06:31.3467|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.UserModel.DTO.UserDTO'.
+2021-05-24 23:06:31.3555|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Get (Backend) in 1403.4174ms
+2021-05-24 23:06:31.3555|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:06:31.3555|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" completed keep alive response.
+2021-05-24 23:06:31.3555|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3293.833ms 200 application/json; charset=utf-8
+2021-05-24 23:06:31.7372|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.TeacherController.GetInfoteacher (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1794.3591ms.
+2021-05-24 23:06:31.7372|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:06:31.7372|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:06:31.7372|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:06:31.7372|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:06:31.7372|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:06:31.7372|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.TeacherModel.DTO.TeacherInformationDTO'.
+2021-05-24 23:06:31.7490|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.TeacherController.GetInfoteacher (Backend) in 2041.4116ms
+2021-05-24 23:06:31.7490|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:06:31.7579|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:06:31.7579|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 3695.8584ms 200 application/json; charset=utf-8
+2021-05-24 23:08:04.4238|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655  
+2021-05-24 23:08:04.4709|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:08:04.4709|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)' with route pattern 'Teacher/GetInfoTeacher/{id}' is valid for the request path '/teacher/GetInfoTeacher/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:08:04.4709|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:08:04.4709|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:08:04.4709|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:08:04.5011|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:08:04.5011|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:08:04.5011|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/1.1 GET http://localhost:8111/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655  
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'Backend.Controllers.UsersController.Get (Backend)' with route pattern 'Users/get/{id}' is valid for the request path '/users/get/e17f5fe5-3f02-4b19-b037-6940c8d3f655'
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'http://localhost:4200'.
+2021-05-24 23:08:04.5137|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:08:04.5137|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Static files was skipped as the request already matched an endpoint.
+2021-05-24 23:08:04.5137|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:08:04.5137|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:08:04.5137|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetInfoteacher", controller = "Teacher"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetInfoteacher(System.Guid) on controller Backend.Controllers.TeacherController (Backend).
+2021-05-24 23:08:04.5137|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature Model.UserModel.DTO.UserDTO Get(System.Guid) on controller Backend.Controllers.UsersController (Backend).
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): None
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648), Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:08:04.5660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.UsersController (Backend)
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller Backend.Controllers.TeacherController (Backend)
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'id' of type 'System.Guid' using the name 'id' in request data ...
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'id' of type 'System.Guid'.
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'id' of type 'System.Guid' ...
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:08:04.5696|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'id' of type 'System.Guid'.
+2021-05-24 23:08:04.6503|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.UsersController.Get (Backend) - Validation state: Valid
+2021-05-24 23:08:04.6503|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing action method Backend.Controllers.TeacherController.GetInfoteacher (Backend) - Validation state: Valid
+2021-05-24 23:08:04.8143|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.UsersController.Get (Backend), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 163.2208ms.
+2021-05-24 23:08:04.8143|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:08:04.8143|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:08:04.8143|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:08:04.8143|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:08:04.8143|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:08:04.8143|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.UserModel.DTO.UserDTO'.
+2021-05-24 23:08:04.8603|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.UsersController.Get (Backend) in 291.5452ms
+2021-05-24 23:08:04.8603|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.UsersController.Get (Backend)'
+2021-05-24 23:08:04.8603|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" completed keep alive response.
+2021-05-24 23:08:04.8603|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 362.1134ms 200 application/json; charset=utf-8
+2021-05-24 23:08:04.9820|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action method Backend.Controllers.TeacherController.GetInfoteacher (Backend), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 329.5662ms.
+2021-05-24 23:08:04.9820|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2021-05-24 23:08:04.9820|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2021-05-24 23:08:04.9820|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2021-05-24 23:08:04.9820|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2021-05-24 23:08:04.9820|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2021-05-24 23:08:04.9820|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'Model.TeacherModel.DTO.TeacherInformationDTO'.
+2021-05-24 23:08:04.9820|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action Backend.Controllers.TeacherController.GetInfoteacher (Backend) in 416.0919ms
+2021-05-24 23:08:04.9820|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'Backend.Controllers.TeacherController.GetInfoteacher (Backend)'
+2021-05-24 23:08:04.9820|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" completed keep alive response.
+2021-05-24 23:08:04.9820|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished in 562.8516ms 200 application/json; charset=utf-8
+2021-05-24 23:29:59.6781|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM8UURTSTDET" received FIN.
+2021-05-24 23:29:59.6781|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM8UURTSTDES" received FIN.
+2021-05-24 23:29:59.7946|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" disconnecting.
+2021-05-24 23:29:59.7946|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" disconnecting.
+2021-05-24 23:29:59.7946|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM8UURTSTDET" sending FIN because: "The client closed the connection."
+2021-05-24 23:29:59.7946|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HM8UURTSTDES" sending FIN because: "The client closed the connection."
+2021-05-24 23:29:59.8502|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDES" stopped.
+2021-05-24 23:29:59.8502|DEBUG|Microsoft.AspNetCore.Server.Kestrel|Connection id "0HM8UURTSTDET" stopped.

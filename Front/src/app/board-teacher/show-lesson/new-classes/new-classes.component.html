@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>Nowe zajęcia</h2>
+<div mat-dialog-content>
+  <p>Data zajęć</p>
+  <input name="date" [(ngModel)]="today" type="date" require/>
+
+  <p>Temat zajęć</p>
+  <input matInput type="text" [(ngModel)]="themeString" />
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+    Anuluj
+  </button>
+  <button mat-button (click)="save()" cdkFocusInitial>Zapisz</button>
+</div>

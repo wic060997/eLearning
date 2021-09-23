@@ -1,0 +1,231 @@
+<app-nav-bar></app-nav-bar>
+<div class="container">
+  <button
+    mat-icon-button
+    aria-label="Example icon-button with a heart icon"
+    (click)="refresh()"
+  >
+    <mat-icon>cached</mat-icon>
+  </button>
+  <mat-tab-group>
+    <mat-tab label="Użytkownicy">
+      <mat-tab-group>
+        <mat-tab label="Wszyscy">
+          <mat-accordion displayMode="flat" multi class="mat-table">
+            <mat-expansion-panel *ngFor="let item of dataUsers">
+              <mat-expansion-panel-header>
+                <mat-panel-title> Login: {{ item.login }} </mat-panel-title>
+                <mat-panel-description>
+                  <div *ngIf="item.rola.nazwa === 'BRAK'">Rola: BRAK</div>
+                  <div *ngIf="item.rola.nazwa === 'STUDENT'">Rola: UCZEŃ</div>
+                  <div *ngIf="item.rola.nazwa === 'TEACHER'">
+                    Rola: NAUCZYCIEL
+                  </div>
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="user">
+                <div class="tekst">
+                  <div *ngIf="item.rola.nazwa === 'BRAK'">
+                    Imie i nazwisko: {{ item.imieNazwisko }}
+                    <p>Email: {{ item.email }}</p>
+                    <button mat-raised-button (click)="changeButton(item)">
+                      Zmień rolę
+                    </button>
+                  </div>
+                  <div *ngIf="item.rola.nazwa === 'STUDENT'">
+                    Imie i nazwisko: {{ item.imieNazwisko }}
+                    <p>Email: {{ item.email }}</p>
+                    <p>Number index: {{ item.nrIndex }}</p>
+                    <p>Direction: {{ item.group.direction }}</p>
+                    <p>Specjalize: {{ item.group.specjalize }}</p>
+                    <p>Year: {{ item.group.year }}</p>
+                    <p>Semester: {{ item.group.semester }}</p>
+                  </div>
+                  <div *ngIf="item.rola.nazwa === 'TEACHER'">
+                    Imie i nazwisko: {{ item.imieNazwisko }}
+                    <p>Email: {{ item.email }}</p>
+                    <p>Specjalize: {{ item.specjalize }}</p>
+                    <div>
+                      <mat-accordion displayMode="flat" multi class="mat-table">
+                        <mat-expansion-panel
+                          *ngFor="let sub of item.subjectStatic"
+                        >
+                          <mat-expansion-panel-header>
+                            <mat-panel-title>
+                              Subject: {{ sub.name }}
+                            </mat-panel-title>
+                            <mat-panel-description> </mat-panel-description>
+                          </mat-expansion-panel-header>
+                          <div *ngFor="let les of sub.types">
+                            <p>Type lesson: {{ les.name }}</p>
+                          </div>
+                        </mat-expansion-panel>
+                      </mat-accordion>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </mat-tab>
+        <mat-tab label="Brak uprawnień">
+          <mat-accordion displayMode="flat" multi class="mat-table">
+            <mat-expansion-panel *ngFor="let item of dataNullPermision">
+              <mat-expansion-panel-header>
+                <mat-panel-title> Login: {{ item.login }} </mat-panel-title>
+                <mat-panel-description>
+                  Imie i nazwisko: {{ item.imieNazwisko }}
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="user">
+                <div class="tekst">
+                  <p>Email: {{ item.email }}</p>
+                  <button mat-raised-button (click)="changeButton(item)">
+                    Zmień rolę
+                  </button>
+                </div>
+              </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </mat-tab>
+        <mat-tab label="Uczeniowie">
+          <mat-accordion displayMode="flat" multi class="mat-table">
+            <mat-expansion-panel *ngFor="let item of dataStudent">
+              <mat-expansion-panel-header>
+                <mat-panel-title> Login: {{ item.login }} </mat-panel-title>
+                <mat-panel-description>
+                  Imie i nazwisko: {{ item.imieNazwisko }}
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="user">
+                <div class="tekst">
+                  <div *ngIf="item.group !== null">
+                    <p>Number index: {{ item.nrIndex }}</p>
+                    <p>Year: {{ item.group.year }}</p>
+                    <p>Semester: {{ item.group.semester }}</p>
+                    <p>Direction: {{ item.group.direction }}</p>
+                    <p>Specjalize: {{ item.group.specjalize }}</p>
+                  </div>
+                </div>
+              </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </mat-tab>
+        <mat-tab label="Nauczyciele">
+          <mat-accordion displayMode="flat" multi class="mat-table">
+            <mat-expansion-panel *ngFor="let item of dataTeacher">
+              <mat-expansion-panel-header>
+                <mat-panel-title> Login: {{ item.login }} </mat-panel-title>
+                <mat-panel-description>
+                  Imie i nazwisko: {{ item.imieNazwisko }}
+                </mat-panel-description>
+              </mat-expansion-panel-header>
+              <div class="user">
+                <div class="tekst">
+                  <p>Specjalizacja: {{ item.specjalize }}</p>
+                  <div>
+                    <mat-accordion displayMode="flat" multi class="mat-table">
+                      <mat-expansion-panel
+                        *ngFor="let sub of item.subjectStatic"
+                      >
+                        <mat-expansion-panel-header>
+                          <mat-panel-title>
+                            Przedmiot: {{ sub.name }}
+                          </mat-panel-title>
+                          <mat-panel-description></mat-panel-description>
+                        </mat-expansion-panel-header>
+                        <div *ngFor="let les of sub.types">
+                          <p>Type lesson: {{ les.name }}</p>
+                        </div>
+                      </mat-expansion-panel>
+                    </mat-accordion>
+                  </div>
+                </div>
+              </div>
+            </mat-expansion-panel>
+          </mat-accordion>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-tab>
+    <mat-tab label="Przedmioty">
+      <button mat-raised-button (click)="newSubject()">
+        <mat-icon>add</mat-icon>
+      </button>
+
+      <mat-accordion displayMode="flat" multi class="mat-table">
+        <mat-expansion-panel *ngFor="let item of dataSubject">
+          <mat-expansion-panel-header>
+            <mat-panel-title> Przedmiot: {{ item.name }} </mat-panel-title>
+          </mat-expansion-panel-header>
+          <button mat-raised-button (click)="showSubject(item)">
+            Pokaż wszystkie informacje!
+          </button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-tab>
+    <mat-tab label="Grupy">
+      <button mat-raised-button (click)="newGroup()">
+        <mat-icon>add</mat-icon>
+      </button>
+
+      <mat-accordion displayMode="flat" multi class="mat-table">
+        <mat-expansion-panel *ngFor="let item of dataGroup">
+          <mat-expansion-panel-header>
+            <mat-panel-title> Kierunek: {{ item.direction }} </mat-panel-title>
+            <mat-panel-description>
+              Specjalizacja: {{ item.specjalize }}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <p>Rok: {{ item.year }}</p>
+          <p>Semestr: {{ item.semester }}</p>
+          <button mat-raised-button (click)="showStudents(item)">
+            Pokaż należących studentów
+          </button>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-tab>
+    <mat-tab label="Pliki">
+      <mat-accordion displayMode="flat" multi class="mat-table">
+        <mat-expansion-panel *ngFor="let item of dataMaterial">
+          <mat-expansion-panel-header
+          >
+            <mat-panel-title> {{ item.name }} </mat-panel-title>
+            <mat-panel-description>
+              {{ item.classes.lesson.subject.name }} -
+              {{ item.classes.lesson.typLesson }}
+            </mat-panel-description>
+          </mat-expansion-panel-header>
+          <div class="plik">
+            <div class="tekst">
+              <p>Nazwa: {{ item.name }}</p>
+              <p>Localizacja: {{ item.localization }}</p>
+              <p>Data aktywacji: {{ item.dataActive }}</p>
+              <p>
+                Czy aktyny:
+                <mat-checkbox
+                  class="example-margin"
+                  [(ngModel)]="item.isActive"
+                >
+                </mat-checkbox>
+              </p>
+              <p>Przedmiot: {{ item.classes.lesson.subject.name }}</p>
+              <p>Typ: {{ item.classes.lesson.typLesson }}</p>
+              <p>Temat: {{ item.classes.theme }}</p>
+              <p>Data zajęć: {{ item.classes.dataClasses }}</p>
+              <p>
+                Grupa: {{ item.classes.lesson.groupS.year }} -
+                {{ item.classes.lesson.groupS.semester }} -
+                {{ item.classes.lesson.groupS.direction }} -
+                {{ item.classes.lesson.groupS.specjalize }}
+              </p>
+              <p>
+                Nauczyciel: {{ item.classes.lesson.teacher.user.imieNazwisko }}
+                {{ item.classes.lesson.teacher.specjalize }}
+              </p>
+            </div>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-tab>
+  </mat-tab-group>
+</div>

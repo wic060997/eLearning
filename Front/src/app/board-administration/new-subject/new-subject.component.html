@@ -1,0 +1,15 @@
+<h2 mat-dialog-title>Nowy przedmiot</h2>
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="subjectForm">
+    <div class="form-group">
+      <label>Nazwa przedmiotu</label>
+      <input type="text" formControlName="name" class="form-control" />
+    </div>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">Anuluj</button>
+  <button mat-button (click)="save(subjectForm.value)" cdkFocusInitial>
+    Zapisz
+  </button>
+</div>

@@ -1,0 +1,24 @@
+<h2 mat-dialog-title>Nowa grupa</h2>
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="groupForm">
+    <div class="form-group">
+      <label>Rok</label>
+      <input type="text" formControlName="year" class="form-control" />
+
+      <label>Semestr</label>
+      <input type="text" formControlName="semester" class="form-control" />
+
+      <label>Kierunek</label>
+      <input type="text" formControlName="direction" class="form-control" />
+
+      <label>Specjalizacja</label>
+      <input type="text" formControlName="specjalize" class="form-control" />
+    </div>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">Anuluj</button>
+  <button mat-button (click)="save(groupForm.value)" cdkFocusInitial>
+    Zapisz
+  </button>
+</div>

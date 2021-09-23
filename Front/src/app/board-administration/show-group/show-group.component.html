@@ -1,0 +1,26 @@
+<h2 mat-dialog-title>Grupa {{ data.direction }} {{ data.specjalize }}</h2>
+<div mat-dialog-content>
+  <p>Kierunek: {{ data.direction }}</p>
+  <p>Specalizacja: {{ data.specjalize }}</p>
+  <p>Rok: {{ data.year }}</p>
+  <p>Semestr: {{ data.semester }}</p>
+
+  <mat-accordion displayMode="flat" multi class="mat-table">
+    <mat-expansion-panel *ngFor="let item of students">
+      <mat-expansion-panel-header>
+        <mat-panel-title> Login: {{ item.login }} </mat-panel-title>
+        <mat-panel-description>
+          Imie Nazwisko: {{ item.imieNazwisko }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>Email: {{ item.email }}</p>
+      <p>Numer indexu: {{ item.nrIndex }}</p>
+    </mat-expansion-panel>
+  </mat-accordion>
+  
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+    Anuluj
+  </button>
+</div>

@@ -1,0 +1,25 @@
+<div>
+  <button mat-raised-button (click)="newFile()">
+    <mat-icon>add</mat-icon>
+  </button>
+  <div>
+    <mat-expansion-panel *ngFor="let mat of materials">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{ mat.name }}
+        </mat-panel-title>
+        <mat-panel-description>
+          Aktywny: {{ mat.isActive }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <div class="fil">
+        <div class="elem">
+          <p>Data: {{mat.dataActive}}</p>
+        <button mat-raised-button (click)="ShowList(mat.id)">Pokaż historię</button>
+        <button mat-raised-button (click)="Download(mat)">Pobierz</button>
+        <button mat-raised-button color="warn" (click)="deleteFile(mat.id)">Usuń </button>
+        </div>
+      </div>
+    </mat-expansion-panel>
+  </div>
+</div>

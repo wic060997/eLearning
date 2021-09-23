@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\PRACA_MAGISTERSKA\\Backend\\JobCron\\JobCron.csproj": {}
+  },
+  "projects": {
+    "D:\\PRACA_MAGISTERSKA\\Backend\\Infrastructure\\Infrastructure.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\PRACA_MAGISTERSKA\\Backend\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\PRACA_MAGISTERSKA\\Backend\\Infrastructure\\Infrastructure.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\PRACA_MAGISTERSKA\\Backend\\JobCron\\JobCron.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\PRACA_MAGISTERSKA\\Backend\\JobCron\\JobCron.csproj",
+        "projectName": "JobCron",
+        "projectPath": "D:\\PRACA_MAGISTERSKA\\Backend\\JobCron\\JobCron.csproj",
+        "packagesPath": "C:\\Users\\Wiktor\\.nuget\\packages\\",
+        "outputPath": "D:\\PRACA_MAGISTERSKA\\Backend\\JobCron\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Wiktor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\PRACA_MAGISTERSKA\\Backend\\Model\\Model.csproj": {
+                "projectPath": "D:\\PRACA_MAGISTERSKA\\Backend\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Cronos": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\PRACA_MAGISTERSKA\\Backend\\Model\\Model.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\PRACA_MAGISTERSKA\\Backend\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "D:\\PRACA_MAGISTERSKA\\Backend\\Model\\Model.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\PRACA_MAGISTERSKA\\Backend\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\PRACA_MAGISTERSKA\\Backend\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

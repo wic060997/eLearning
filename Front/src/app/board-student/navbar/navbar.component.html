@@ -1,0 +1,30 @@
+<mat-toolbar class="header">
+    <mat-toolbar-row>
+      <button mat-button routerLink="">
+        <img src="assets\logo.png" class="logo" />
+      </button>
+  
+      <div>
+        {{ currentUser.school.name }}
+      </div>
+  
+      <div class="log">
+        <button mat-button [matMenuTriggerFor]="menu">
+          <mat-card-header class="text">
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title class="size">
+              {{ currentUser.login }}
+            </mat-card-title>
+            <mat-icon class="icon">more_vert</mat-icon>
+          </mat-card-header>
+        </button>
+        <mat-menu #menu="matMenu">
+          <button mat-menu-item (click)="logout()">
+            <mat-icon>logout</mat-icon>
+            <span>Wyloguj</span>
+          </button>
+        </mat-menu>
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+  

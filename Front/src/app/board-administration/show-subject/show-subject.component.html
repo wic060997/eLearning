@@ -1,0 +1,48 @@
+<h2 mat-dialog-title>Przedmiot: {{ data.name }}</h2>
+<div mat-dialog-content>
+  <button mat-raised-button (click)="newLesson()">
+    <mat-icon>add</mat-icon>
+  </button>
+
+  <mat-accordion displayMode="flat" multi class="mat-table">
+    <mat-expansion-panel *ngFor="let les of lessons">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Nauczyciel: {{ les.teacher.user.imieNazwisko }} Group: {{
+            les.groupS.direction
+          }}
+          {{ les.groupS.specjalize }} {{ les.groupS.year }}
+          {{ les.groupS.semester }}
+        </mat-panel-title>
+        <mat-panel-description>
+          Typ lekcji: {{ les.typLesson }}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+
+      <div class="forma">
+        <div class="tekst">
+          <h3>Nauczyciel:</h3>
+          <p>Login: {{ les.teacher.user.login }}</p>
+          <p>Imie i Nazwisko: {{ les.teacher.user.imieNazwisko }}</p>
+          <p>Email: {{ les.teacher.user.email }}</p>
+          <p>Specjalizacja: {{ les.teacher.specjalize }}</p>
+        </div>
+      </div>
+      <div class="forma">
+        <div class="tekst">
+          <h3>Grupa:</h3>
+          <p>Kierunek: {{ les.groupS.direction }}</p>
+          <p>Specjalizacja: {{ les.groupS.specjalize }}</p>
+          <p>Rok: {{ les.groupS.year }}</p>
+          <p>Semestr: {{ les.groupS.semester }}</p>
+        </div>
+      </div>
+      <h3>Czas trwania: {{ les.time }} h</h3>
+    </mat-expansion-panel>
+  </mat-accordion>
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+    Anuluj
+  </button>
+</div>

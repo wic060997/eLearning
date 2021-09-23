@@ -1,0 +1,33 @@
+<h2 mat-dialog-title>Nowa szkoła</h2>
+<div mat-dialog-content>
+  <form class="example-form" [formGroup]="schoolForm">
+    <div class="form-group">
+      <label>Nazwa szkoły</label>
+      <input type="text" formControlName="name" class="form-control" />
+    </div>
+
+    <h1>Użytkownik adminisracji</h1>
+    <div class="form-group">
+      <label>Login</label>
+      <input type="text" formControlName="login" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label>Imie Nazwisko</label>
+      <input type="text" formControlName="imieNazwisko" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label>Hasło</label>
+      <input type="text" formControlName="password" class="form-control" />
+    </div>
+    <div class="form-group">
+      <label>E-mail</label>
+      <input type="email" formControlName="email" class="form-control" />
+    </div>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">Anuluj</button>
+  <button mat-button (click)="save(schoolForm.value)" cdkFocusInitial>
+    Zapisz
+  </button>
+</div>

@@ -1,0 +1,45 @@
+<h2 mat-dialog-title>Nowa lekcja: {{ data.name }}</h2>
+<div mat-dialog-content>
+  <mat-radio-group
+    aria-labelledby="example-radio-group-label"
+    class="example-radio-group"
+    [(ngModel)]="chooseTyp"
+  >
+    <mat-radio-button
+      class="example-radio-button"
+      *ngFor="let typ of types"
+      [value]="typ"
+    >
+      {{ typ }}
+    </mat-radio-button>
+  </mat-radio-group>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Wybierz nauczyciela</mat-label>
+    <mat-select [(ngModel)]="selectTeacher" name="teacher">
+      <mat-option *ngFor="let teacher of teachers" [value]="teacher">
+        {{ teacher.user.login }} {{ teacher.user.imieNazwisko }} -
+        {{ teacher.specjalize }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field appearance="fill">
+    <mat-label>Wybierz grupę</mat-label>
+    <mat-select [(ngModel)]="selectGroup" name="group">
+      <mat-option *ngFor="let group of groups" [value]="group">
+        {{ group.direction }} {{ group.specjalize }} {{ group.year }}
+        {{ group.semester }}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <div>
+    Time:
+    <input matInput type="number" [(ngModel)]="timeValue" />
+  </div>
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+    Anuluj
+  </button>
+  <button mat-button (click)="save()" cdkFocusInitial>Zapisz</button>
+</div>

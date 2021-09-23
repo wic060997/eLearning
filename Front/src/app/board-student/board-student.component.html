@@ -1,0 +1,130 @@
+<app-navbar></app-navbar>
+<div class="container">
+  <div *ngIf="load === false">
+    <mat-tab-group>
+      <mat-tab label="Informacja">
+        <div class="info">
+          <div class="tekst">
+            <h2>User</h2>
+            <p>Login: {{ student.login }}</p>
+            <p>Imie Nazwisko: {{ student.imieNazwisko }}</p>
+            <p>E-mail: {{ student.email }}</p>
+            <p>NrIndex: {{ student.nrIndex }}</p>
+          </div>
+        </div>
+        <div class="info">
+          <div class="tekst">
+            <h2>School</h2>
+            <p>Name:{{ student.school.name }}</p>
+          </div>
+        </div>
+        <div class="info">
+          <div class="tekst">
+            <h2>Group</h2>
+            <p>Direction: {{ student.group.direction }}</p>
+            <p>Specjalize: {{ student.group.specjalize }}</p>
+            <p>Year: {{ student.group.year }}</p>
+            <p>Semester: {{ student.group.semester }}</p>
+            <div>
+              <ul *ngFor="let us of student.group.userStudent">
+                <li>
+                  <div>
+                    <p>Login: {{ us.login }}</p>
+                    <p>Imie Nazwisko: {{ us.imieNazwisko }}</p>
+                    <p>E-mail: {{ us.email }}</p>
+                    <p>NrIndex: {{ us.nrIndex }}</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </mat-tab>
+      <mat-tab label="Przedmioty">
+        <mat-accordion displayMode="flat" multi class="mat-table">
+          <mat-expansion-panel *ngFor="let item of student.subject">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                {{ item.name }}
+              </mat-panel-title>
+              <mat-panel-description> </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div>
+              <mat-accordion displayMode="flat" multi class="mat-table">
+                <mat-expansion-panel *ngFor="let typ of item.typs">
+                  <mat-expansion-panel-header>
+                    <mat-panel-title>
+                      {{ typ.name }}
+                    </mat-panel-title>
+                    <mat-panel-description> </mat-panel-description>
+                  </mat-expansion-panel-header>
+                  <div>
+                    <mat-list *ngFor="let less of typ.lessonTyps">
+                      <button mat-button class="file" (click)="showLesson(less)">
+                        Teacher: {{ less.userTeacher.user.login }} -
+                        {{ less.userTeacher.user.imieNazwisko }} -
+                        {{ less.userTeacher.specjalize }}
+                      </button>
+                    </mat-list>
+                  </div>
+                </mat-expansion-panel>
+              </mat-accordion>
+            </div>
+          </mat-expansion-panel>
+        </mat-accordion>
+      </mat-tab>
+      <mat-tab label="Wszystkie pliki">
+        <div>
+          <mat-expansion-panel *ngFor="let mat of student.materials">
+            <mat-expansion-panel-header>
+              <mat-panel-title> Nazwa pliku: {{ mat.name }} </mat-panel-title>
+              <mat-panel-description>
+                Data aktywacji: {{ mat.dataActive }}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <div class="files">
+              <div class="tekst">
+                <h2>Lekcja</h2>
+                <p>
+                  Nazwa przedmiotu:
+                  {{ mat.classesStudent.lessonStudent.subjectStudent.name }}
+                </p>
+                <p>Typ zajęć: {{ mat.classesStudent.lessonStudent.typ }}</p>
+                <p>
+                  Czas trwania zajeć:
+                  {{ mat.classesStudent.lessonStudent.time }}
+                </p>
+                <p>Temat: {{ mat.classesStudent.theme }}</p>
+                <p>Data zajęć: {{ mat.classesStudent.dataClasses | date }}</p>
+                <p>Nauczyciel</p>
+                <p>
+                  Login:
+                  {{ mat.classesStudent.lessonStudent.userTeacher.user.login }}
+                </p>
+                <p>
+                  Imie Nazwisko:
+                  {{
+                    mat.classesStudent.lessonStudent.userTeacher.user
+                      .imieNazwisko
+                  }}
+                </p>
+                <p>
+                  E-mail:
+                  {{ mat.classesStudent.lessonStudent.userTeacher.user.email }}
+                </p>
+                <p>
+                  Specjalizacja:
+                  {{ mat.classesStudent.lessonStudent.userTeacher.specjalize }}
+                </p>
+
+                <button mat-raised-button (click)="Download(mat.id)">
+                  Pobierz
+                </button>
+              </div>
+            </div>
+          </mat-expansion-panel>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>

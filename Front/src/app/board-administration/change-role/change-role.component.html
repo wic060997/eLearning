@@ -1,0 +1,56 @@
+<h2 mat-dialog-title>Zmiana roli</h2>
+<div mat-dialog-content>
+  <p>Login: {{ data.login }}</p>
+  <p>Imie i nazwisko: {{ data.imieNazwisko }}</p>
+  <p>Email: {{ data.email }}</p>
+
+  <mat-radio-group
+    aria-labelledby="example-radio-group-label"
+    class="example-radio-group"
+    [(ngModel)]="chooseRole"
+  >
+    <mat-radio-button
+      class="example-radio-button"
+      *ngFor="let rol of roles"
+      [value]="rol"
+    >
+      {{ rol }}
+    </mat-radio-button>
+  </mat-radio-group>
+  <div *ngIf="chooseRole === 'STUDENT'">
+    <mat-form-field appearance="fill">
+        <mat-label>Wybierz grupę</mat-label>
+        <mat-select [(ngModel)]="selectedGroup" name="group">
+          <mat-option *ngFor="let group of groups" [value]="group">
+            {{group.year}} - {{group.semester}} - {{group.direction}} - {{group.specjalize}}
+          </mat-option>
+        </mat-select>
+      </mat-form-field>
+  </div>
+  <div *ngIf="chooseRole === 'TEACHER'">
+    <form class="example-form" [formGroup]="techerForm">
+      <div class="form-group">
+        <label>Specijalizacja:</label>
+        <input type="text" formControlName="specjalize" class="form-control" />
+      </div>
+    </form>
+  </div>
+  
+  
+</div>
+<div mat-dialog-actions>
+  <button type="submit" class="btn btn-primary" (click)="onNoClick()">
+    Anuluj
+  </button>
+  <div *ngIf="chooseRole === 'STUDENT'">
+    <button mat-button (click)="save()" cdkFocusInitial>
+      Zapisz
+    </button>
+  </div>
+  <div *ngIf="chooseRole === 'TEACHER'">
+    <button mat-button (click)="saveTeacher(techerForm.value)" cdkFocusInitial>
+      Zapisz
+    </button>
+  </div>
+  
+</div>

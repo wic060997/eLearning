@@ -1,0 +1,19 @@
+.example-events {
+  height: 200px;
+  border: 1px solid #555;
+  overflow: auto;
+}
+.listitem{
+  background-color: #888383;
+  position: relative;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  .tekst {
+    margin-left: 10px;
+    color: black;
+    
+  }
+}
